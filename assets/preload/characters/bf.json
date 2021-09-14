@@ -1,224 +1,224 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				68,
 				25
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "idle",
-			"indices": [],
-			"name": "BF idle dance"
+			"fps": 24,
+			"name": "BF idle dance",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				78,
 				24
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFTmiss",
-			"indices": [],
-			"name": "BF NOTE LEFT MISS"
+			"fps": 24,
+			"name": "BF NOTE LEFT MISS",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				64,
 				-24
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWNmiss",
-			"indices": [],
-			"name": "BF NOTE DOWN MISS"
+			"fps": 24,
+			"name": "BF NOTE DOWN MISS",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				31,
 				37
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUPmiss",
-			"indices": [],
-			"name": "BF NOTE UP MISS"
+			"fps": 24,
+			"name": "BF NOTE UP MISS",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				24,
 				37
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHTmiss",
-			"indices": [],
-			"name": "BF NOTE RIGHT MISS"
+			"fps": 24,
+			"name": "BF NOTE RIGHT MISS",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				67,
 				35
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "hey",
-			"indices": [],
-			"name": "BF HEY"
+			"fps": 24,
+			"name": "BF HEY",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				99,
 				47
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "hurt",
-			"indices": [],
-			"name": "BF hit"
+			"fps": 24,
+			"name": "BF hit",
+			"indices": []
 		},
 		{
-			"offsets": [
-				99,
-				47
-			],
 			"loop": true,
-			"fps": 24,
-			"anim": "scared",
-			"indices": [],
-			"name": "BF idle shaking"
-		},
-		{
 			"offsets": [
 				99,
 				47
 			],
-			"loop": false,
+			"anim": "scared",
 			"fps": 24,
-			"anim": "firstDeath",
-			"indices": [],
-			"name": "BF dies"
+			"name": "BF idle shaking",
+			"indices": []
 		},
 		{
+			"loop": false,
+			"offsets": [
+				99,
+				47
+			],
+			"anim": "firstDeath",
+			"fps": 24,
+			"name": "BF dies",
+			"indices": []
+		},
+		{
+			"loop": true,
 			"offsets": [
 				99,
 				44
 			],
-			"loop": true,
-			"fps": 24,
 			"anim": "deathLoop",
-			"indices": [],
-			"name": "BF Dead Loop"
+			"fps": 24,
+			"name": "BF Dead Loop",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				99,
 				71
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "deathConfirm",
-			"indices": [],
-			"name": "BF Dead confirm"
+			"fps": 24,
+			"name": "BF Dead confirm",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				91,
 				14
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "BF NOTE LEFT0"
+			"fps": 24,
+			"name": "BF NOTE LEFT0",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				60,
 				-30
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "BF NOTE DOWN0"
+			"fps": 24,
+			"name": "BF NOTE DOWN0",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				21,
 				31
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUP",
-			"indices": [],
-			"name": "BF NOTE UP0"
+			"fps": 24,
+			"name": "BF NOTE UP0",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				22,
 				20
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "BF NOTE RIGHT0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				69,
+				22
+			],
+			"anim": "idle-alt",
+			"fps": 24,
+			"name": "BF cueca dance",
+			"indices": []
+		},
+		{
+			"offsets": [
+				60,
+				-20
+			],
 			"indices": [],
-			"name": "BF NOTE RIGHT0"
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"loop": false,
+			"name": "BF NOTE DOWN-alt"
+		},
+		{
+			"offsets": [
+				30,
+				70
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP-alt",
+			"loop": false,
+			"name": "BF NOTE UP-alt"
+		},
+		{
+			"offsets": [
+				20,
+				23
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"loop": false,
+			"name": "BF NOTE RIGHT-alt"
 		},
 		{
 			"offsets": [
 				80,
 				47
 			],
-			"loop": false,
+			"indices": [],
 			"fps": 24,
 			"anim": "singLEFT-alt",
-			"indices": [],
-			"name": "BF NOTE LEFT - alt"
-		},
-		{
 			"loop": false,
-			"offsets": [
-				20,
-				23
-			],
-			"anim": "singRIGHT-alt",
-			"fps": 24,
-			"name": "BF NOTE RIGHT - alt",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				30,
-				70
-			],
-			"anim": "singUP-alt",
-			"fps": 24,
-			"name": "BF NOTE UP - alt",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				60,
-				-20
-			],
-			"anim": "singDOWN-alt",
-			"fps": 24,
-			"name": "BF NOTE DOWN - alt",
-			"indices": []
-		},
-		{
-			"offsets": [
-				69,
-				22
-			],
-			"indices": [],
-			"fps": 24,
-			"anim": "idle-alt",
-			"loop": false,
-			"name": "BF cueca dance"
+			"name": "BF NOTE LEFT-alt"
 		}
 	],
 	"no_antialiasing": false,
