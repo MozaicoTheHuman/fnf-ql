@@ -177,6 +177,7 @@ class PlayState extends MusicBeatState
 
 	var upperBoppers:BGSprite;
 	var bottomBoppers:BGSprite;
+	var leftBoppers:BGSprite;
 	var santa:BGSprite;
 	var heyTimer:Float;
 
@@ -295,6 +296,11 @@ class PlayState extends MusicBeatState
 				upperBoppers.setGraphicSize(Std.int(upperBoppers.width * 0.85));
 				upperBoppers.updateHitbox();
 				add(upperBoppers);
+
+				leftBoppers = new BGSprite('unimarc/sulayrecameo', 125, 300, 0.9, 0.9, ['sulayrebopper']);
+				leftBoppers.setGraphicSize(Std.int(upperBoppers.width * 0.425));
+				leftBoppers.updateHitbox();
+				add(leftBoppers);
 
 				bottomBoppers = new BGSprite('unimarc/genteFront', -840, -500, 0.85, 0.85, ['BopCrowdFront']);
 				bottomBoppers.setGraphicSize(Std.int(bottomBoppers.width * 1.1));
@@ -3287,6 +3293,7 @@ class PlayState extends MusicBeatState
 			case 'unimarc':
 				upperBoppers.dance(true);
 				bottomBoppers.dance(true);
+				leftBoppers.dance(true);
 
 			case 'limo':
 				if(!ClientPrefs.lowQuality) {
