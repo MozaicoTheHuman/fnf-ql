@@ -118,19 +118,17 @@ class MainMenuState extends MusicBeatState
 
 		changeItem();
 
+		#if ACHIEVEMENTS_ALLOWED
+		Achievements.loadAchievements();
+
+		achievementID = 0;
 		var leDate = Date.now();
 		var leMonth = leDate.getMonth();
 		var leDay = leDate.getDate();
 
 		if ((leMonth == 8) && (leDay == 18))
-			{
-				Achievements.achievementsUnlocked[0] = true;
-			}
-		trace(leDate," ",leMonth," ",leDay);
-		#if ACHIEVEMENTS_ALLOWED
-		Achievements.loadAchievements();
-		if (!Achievements.achievementsUnlocked[achievementID][1] && leDate.getDay() == 5 && leDate.getHours() >= 18) { //It's a friday night. WEEEEEEEEEEEEEEEEEE
-			Achievements.achievementsUnlocked[achievementID][1] = true;
+		{
+			Achievements.achievementsUnlocked[0][1] = true;
 			giveAchievement();
 			ClientPrefs.saveSettings();
 		}
