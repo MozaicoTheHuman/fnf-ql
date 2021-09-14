@@ -11,22 +11,22 @@ using StringTools;
 
 class Achievements {
 	public static var achievementsStuff:Array<Dynamic> = [ //Name, Description, Hidden achievement
-		["Freaky on a Friday Night",	"Play on a Friday... Night.",							 true],
-		["She Calls Me Daddy Too",		"Beat Week 1 on Hard with no Misses.",					false],
-		["No More Tricks",				"Beat Week 2 on Hard with no Misses.",					false],
-		["Call Me The Hitman",			"Beat Week 3 on Hard with no Misses.",					false],
-		["Lady Killer",					"Beat Week 4 on Hard with no Misses.",					false],
-		["Missless Christmas",			"Beat Week 5 on Hard with no Misses.",					false],
-		["Highscore!!",					"Beat Week 6 on Hard with no Misses.",					false],
+		["Bueno pa la talla",			"Juega el juego en el 18",								false],
+		["Chileno de corazón",			"Pasa la semana sin fallar",							false],
+		["No More Tricks",				"Beat Week 2 on Hard with no Misses.",					true],
+		["Call Me The Hitman",			"Beat Week 3 on Hard with no Misses.",					true],
+		["Lady Killer",					"Beat Week 4 on Hard with no Misses.",					true],
+		["Missless Christmas",			"Beat Week 5 on Hard with no Misses.",					true],
+		["Highscore!!",					"Beat Week 6 on Hard with no Misses.",					true],
 		["You'll Pay For That...",		"Beat Week 7 on Hard with no Misses.",					true],
-		["What a Funkin' Disaster!",	"Complete a Song with a rating lower than 20%.",		false],
-		["Perfectionist",				"Complete a Song with a rating of 100%.",				false],
-		["Roadkill Enthusiast",			"Watch the Henchmen die over 100 times.",				false],
-		["Oversinging Much...?",		"Hold down a note for 20 seconds.",						false],
-		["Hyperactive",					"Finish a Song without going Idle.",					false],
-		["Just the Two of Us",			"Finish a Song pressing only two keys.",				false],
-		["Toaster Gamer",				"Have you tried to run the game on a toaster?",			false],
-		["Debugger",					"Beat the \"Test\" Stage from the Chart Editor.",		 true]
+		["Ooo el culiao malo no le sabes",	"Completa una canción con rating menor que 20%",	false],
+		["Doctorado en ciencias sociales",	"Completa una cancion con un rating de 100%.",		false],
+		["Roadkill Enthusiast",			"Watch the Henchmen die over 100 times.",				true],
+		["Lento pero rico rico rico",	"Mantén presionada una nota por 20 segundos.",			false],
+		["Weno pa la pasta base",		"Completa una canción sin soltar alguna tecla",			false],
+		["Su cuequita a solas",			"Completa una canción presionando solo 2 teclas",		false],
+		["pc de la junaeb",				"Intenta correr el juego con 27 aplicaciones abiertas", false],
+		["Ingeniero en informática",	"Beat the \"Test\" Stage from the Chart Editor.",		 true]
 	];
 
 	public static var achievementsUnlocked:Array<Dynamic> = [ //Save string and Achievement tag + is it unlocked?
@@ -45,7 +45,7 @@ class Achievements {
 		['hype', false],				//12
 		['two_keys', false],			//13
 		['toastie', false],				//14
-		['debugger', false], 			//15
+		['debugger', false] 			//15
 	];
 
 	public static var henchmenDeath:Int = 0;

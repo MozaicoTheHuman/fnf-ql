@@ -292,18 +292,18 @@ class PlayState extends MusicBeatState
 				bg.updateHitbox();
 				add(bg);
 
-				upperBoppers = new BGSprite('unimarc/Shy__Pico_HUASOS_assets', 1100, 350, 0.9, 0.9, ['Both_idles']);
+				upperBoppers = new BGSprite('unimarc/Shy__Pico_HUASOS_assets', 1100, 350, 0.95, 0.95, ['Both_idles']);
 				upperBoppers.setGraphicSize(Std.int(upperBoppers.width * 0.85));
 				upperBoppers.updateHitbox();
 				add(upperBoppers);
 
-				leftBoppers = new BGSprite('unimarc/sulayrecameo', 125, 290, 0.9, 0.9, ['sulayrebopper']);
+				leftBoppers = new BGSprite('unimarc/sulayrecameo', 125, 290, 0.95, 0.95, ['sulayrebopper']);
 				leftBoppers.setGraphicSize(Std.int(upperBoppers.width * 0.425));
 				leftBoppers.updateHitbox();
 				add(leftBoppers);
 				
-                bottomBoppers = new BGSprite('unimarc/genteFront', -685, -470, 0.85, 0.85, ['BopCrowdFront']);
-                bottomBoppers.setGraphicSize(Std.int(bottomBoppers.width * 1.1));
+                bottomBoppers = new BGSprite('unimarc/genteFront', -565, -410, 1.1, 1.1, ['BopCrowdFront']);
+                bottomBoppers.setGraphicSize(Std.int(bottomBoppers.width * 1.15));
                 bottomBoppers.updateHitbox();
 
 			default:
