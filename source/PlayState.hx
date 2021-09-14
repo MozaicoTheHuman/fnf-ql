@@ -381,6 +381,8 @@ class PlayState extends MusicBeatState
 				BF_Y += 220;
 				GF_X += 180;
 				GF_Y += 300;
+			case 'unimarc':
+				BF_X += 200;
 		}
 
 		gf = new Character(GF_X, GF_Y, gfVersion);
