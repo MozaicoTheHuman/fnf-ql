@@ -297,7 +297,7 @@ class PlayState extends MusicBeatState
 				upperBoppers.updateHitbox();
 				add(upperBoppers);
 
-				leftBoppers = new BGSprite('unimarc/sulayrecameo', 125, 300, 0.9, 0.9, ['sulayrebopper']);
+				leftBoppers = new BGSprite('unimarc/sulayrecameo', 125, 290, 0.9, 0.9, ['sulayrebopper']);
 				leftBoppers.setGraphicSize(Std.int(upperBoppers.width * 0.425));
 				leftBoppers.updateHitbox();
 				add(leftBoppers);
