@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TextureAtlas imagePath="genteFront.png">
-	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- Created with Adobe Animate version 18.0.2.126 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="BopCrowdFront0000" x="0" y="0" width="2568" height="1405" pivotX="0" pivotY="78.4" frameX="0" frameY="-78" frameWidth="2568" frameHeight="1483"/>
-	<SubTexture name="BopCrowdFront0001" x="0" y="0" width="2568" height="1405" frameX="0" frameY="-78" frameWidth="2568" frameHeight="1483"/>
-	<SubTexture name="BopCrowdFront0002" x="0" y="1405" width="2529" height="1430" frameX="-19" frameY="-51" frameWidth="2568" frameHeight="1483"/>
-	<SubTexture name="BopCrowdFront0003" x="0" y="1405" width="2529" height="1430" frameX="-19" frameY="-51" frameWidth="2568" frameHeight="1483"/>
-	<SubTexture name="BopCrowdFront0004" x="0" y="2835" width="2527" height="1468" frameX="-20" frameY="-14" frameWidth="2568" frameHeight="1483"/>
-	<SubTexture name="BopCrowdFront0005" x="0" y="2835" width="2527" height="1468" frameX="-20" frameY="-14" frameWidth="2568" frameHeight="1483"/>
-	<SubTexture name="BopCrowdFront0006" x="0" y="4303" width="2521" height="1478" frameX="-23" frameY="0" frameWidth="2568" frameHeight="1483"/>
-	<SubTexture name="BopCrowdFront0007" x="0" y="4303" width="2521" height="1478" frameX="-23" frameY="0" frameWidth="2568" frameHeight="1483"/>
-	<SubTexture name="BopCrowdFront0008" x="0" y="4303" width="2521" height="1478" frameX="-23" frameY="0" frameWidth="2568" frameHeight="1483"/>
-	<SubTexture name="BopCrowdFront0009" x="0" y="4303" width="2521" height="1478" frameX="-23" frameY="0" frameWidth="2568" frameHeight="1483"/>
-	<SubTexture name="BopCrowdFront0010" x="0" y="4303" width="2521" height="1478" frameX="-23" frameY="0" frameWidth="2568" frameHeight="1483"/>
-	<SubTexture name="BopCrowdFront0011" x="0" y="4303" width="2521" height="1478" frameX="-23" frameY="0" frameWidth="2568" frameHeight="1483"/>
-	<SubTexture name="BopCrowdFront0012" x="0" y="4303" width="2521" height="1478" frameX="-23" frameY="0" frameWidth="2568" frameHeight="1483"/>
+	<SubTexture name="BopCrowdFront0000" x="10" y="10" width="2521" height="1476" frameX="0" frameY="-2" frameWidth="2521" frameHeight="1478"/>
+	<SubTexture name="BopCrowdFront0001" x="2541" y="10" width="2521" height="1451" frameX="0" frameY="-25" frameWidth="2521" frameHeight="1478"/>
+	<SubTexture name="BopCrowdFront0002" x="5072" y="10" width="2521" height="1468" frameX="0" frameY="-8" frameWidth="2521" frameHeight="1478"/>
+	<SubTexture name="BopCrowdFront0003" x="10" y="1496" width="2521" height="1468" frameX="0" frameY="-8" frameWidth="2521" frameHeight="1478"/>
+	<SubTexture name="BopCrowdFront0004" x="2541" y="1496" width="2521" height="1476" frameX="0" frameY="0" frameWidth="2521" frameHeight="1478"/>
+	<SubTexture name="BopCrowdFront0005" x="5072" y="1496" width="2521" height="1476" frameX="0" frameY="0" frameWidth="2521" frameHeight="1478"/>
+	<SubTexture name="BopCrowdFront0006" x="10" y="2982" width="2521" height="1476" frameX="0" frameY="0" frameWidth="2521" frameHeight="1478"/>
+	<SubTexture name="BopCrowdFront0007" x="2541" y="2982" width="2521" height="1476" frameX="0" frameY="0" frameWidth="2521" frameHeight="1478"/>
+	<SubTexture name="BopCrowdFront0008" x="5072" y="2982" width="2521" height="1476" frameX="0" frameY="0" frameWidth="2521" frameHeight="1478"/>
+	<SubTexture name="BopCrowdFront0009" x="10" y="4468" width="2521" height="1476" frameX="0" frameY="0" frameWidth="2521" frameHeight="1478"/>
+	<SubTexture name="BopCrowdFront0010" x="2541" y="4468" width="2521" height="1476" frameX="0" frameY="0" frameWidth="2521" frameHeight="1478"/>
+	<SubTexture name="BopCrowdFront0011" x="5072" y="4468" width="2521" height="1476" frameX="0" frameY="0" frameWidth="2521" frameHeight="1478"/>
+	<SubTexture name="BopCrowdFront0012" x="10" y="5954" width="2521" height="1476" frameX="0" frameY="0" frameWidth="2521" frameHeight="1478"/>
 </TextureAtlas>
