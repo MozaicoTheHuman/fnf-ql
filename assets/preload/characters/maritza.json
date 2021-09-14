@@ -1,157 +1,105 @@
 {
 	"animations": [
 		{
-			"offsets": [
-				0,
-				0
-			],
 			"loop": false,
+			"offsets": [
+				-90,
+				-172
+			],
+			"fps": 24,
 			"anim": "idle",
-			"fps": 24,
-			"name": "Mom Idle",
-			"indices": []
+			"indices": [],
+			"name": "MaritzaIDLE"
 		},
 		{
-			"offsets": [
-				250,
-				-23
-			],
 			"loop": false,
+			"offsets": [
+				20,
+				-163
+			],
+			"fps": 24,
 			"anim": "singLEFT",
-			"fps": 24,
-			"name": "Mom Left Pose",
-			"indices": []
+			"indices": [],
+			"name": "MaritzaLEFT"
 		},
 		{
-			"offsets": [
-				10,
-				-60
-			],
 			"loop": false,
+			"offsets": [
+				-135,
+				-175
+			],
+			"fps": 24,
 			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "Mom Pose Left",
-			"indices": []
+			"indices": [],
+			"name": "MaritzaRIGHT"
 		},
 		{
-			"offsets": [
-				20,
-				-160
-			],
 			"loop": false,
+			"offsets": [
+				60,
+				-265
+			],
+			"fps": 24,
 			"anim": "singDOWN",
+			"indices": [],
+			"name": "MaritzaDOWN"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-29,
+				-16
+			],
 			"fps": 24,
-			"name": "MOM DOWN POSE",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "MaritzaUP"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-29,
+				-16
+			],
+			"anim": "singUP-loop",
+			"fps": 24,
+			"name": "MaritzaUP",
+			"indices": [
+				4,
+				6,
+				8,
+				10,
+				12
+			]
 		},
 		{
 			"offsets": [
-				14,
-				71
+				-44,
+				-110
 			],
 			"loop": false,
-			"anim": "singUP",
 			"fps": 24,
-			"name": "Mom Up Pose",
-			"indices": []
-		},
-		{
-			"offsets": [
-				0,
-				0
-			],
-			"indices": [
-				10,
-				11,
-				12,
-				13
-			],
-			"fps": 24,
-			"anim": "idle-loop",
-			"loop": true,
-			"name": "Mom Idle"
-		},
-		{
-			"offsets": [
-				250,
-				-23
-			],
-			"indices": [
-				6,
-				7,
-				8,
-				9
-			],
-			"fps": 24,
-			"anim": "singLEFT-loop",
-			"loop": true,
-			"name": "Mom Left Pose"
-		},
-		{
-			"offsets": [
-				14,
-				71
-			],
-			"indices": [
-				11,
-				12,
-				13,
-				14
-			],
-			"fps": 24,
-			"anim": "singUP-loop",
-			"loop": true,
-			"name": "Mom Up Pose"
-		},
-		{
-			"offsets": [
-				10,
-				-60
-			],
-			"indices": [
-				6,
-				7,
-				8,
-				9
-			],
-			"fps": 24,
-			"anim": "singRIGHT-loop",
-			"loop": true,
-			"name": "Mom Pose Left"
-		},
-		{
-			"offsets": [
-				20,
-				-160
-			],
-			"indices": [
-				11,
-				12,
-				13,
-				14
-			],
-			"fps": 24,
-			"anim": "singDOWN-loop",
-			"loop": true,
-			"name": "MOM DOWN POSE"
+			"anim": "hey",
+			"indices": [],
+			"name": "MaritzaCLAP"
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/momCar",
+	"image": "characters/Maritza",
 	"position": [
 		0,
 		0
 	],
-	"healthicon": "mom",
+	"healthicon": "maritza",
 	"flip_x": false,
 	"healthbar_colors": [
-		216,
-		85,
-		142
+		239,
+		132,
+		209
 	],
 	"camera_position": [
-		0,
-		0
+		-180,
+		210
 	],
 	"sing_duration": 4,
 	"scale": 1
