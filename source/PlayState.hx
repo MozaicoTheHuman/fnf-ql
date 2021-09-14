@@ -282,7 +282,7 @@ class PlayState extends MusicBeatState
 
 		switch (SONG.song.toLowerCase())
 		{
-			case 'consentida':
+			case 'consentida' | 'asereje':
 				curStage = 'unimarc';
 
 				defaultCamZoom = 0.65;
@@ -301,10 +301,10 @@ class PlayState extends MusicBeatState
 				leftBoppers.setGraphicSize(Std.int(upperBoppers.width * 0.425));
 				leftBoppers.updateHitbox();
 				add(leftBoppers);
-
-				bottomBoppers = new BGSprite('unimarc/genteFront', -840, -500, 0.85, 0.85, ['BopCrowdFront']);
-				bottomBoppers.setGraphicSize(Std.int(bottomBoppers.width * 1.1));
-				bottomBoppers.updateHitbox();
+				
+                bottomBoppers = new BGSprite('unimarc/genteFront', -685, -470, 0.85, 0.85, ['BopCrowdFront']);
+                bottomBoppers.setGraphicSize(Std.int(bottomBoppers.width * 1.1));
+                bottomBoppers.updateHitbox();
 
 			default:
 				defaultCamZoom = 0.9;
