@@ -282,7 +282,7 @@ class PlayState extends MusicBeatState
 
 		switch (SONG.song.toLowerCase())
 		{
-			case 'consentida':
+			case 'consentida' | 'asereje':
 				curStage = 'unimarc';
 
 				defaultCamZoom = 0.65;

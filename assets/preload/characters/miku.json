@@ -64,7 +64,7 @@
 			"fps": 24,
 			"anim": "singLEFT-alt",
 			"loop": false,
-			"name": "Miku Sing Note LEFT ALT"
+			"name": "Miku IZQUIERDA ALT"
 		},
 		{
 			"offsets": [
@@ -75,7 +75,7 @@
 			"fps": 24,
 			"anim": "singRIGHT-alt",
 			"loop": false,
-			"name": "Miku Sing Note RIGHT ALT"
+			"name": "Miku DERECHA ALT"
 		}
 	],
 	"no_antialiasing": false,
