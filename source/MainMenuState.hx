@@ -36,6 +36,9 @@ class MainMenuState extends MusicBeatState
 	var camFollow:FlxObject;
 	var camFollowPos:FlxObject;
 
+	var bg:FlxSprite;
+	var bgIniX:Float;
+	var bgAng:Float = 0;
 	override function create()
 	{
 		#if desktop
@@ -55,13 +58,14 @@ class MainMenuState extends MusicBeatState
 		transOut = FlxTransitionableState.defaultTransOut;
 
 		persistentUpdate = persistentDraw = true;
-
+		
 		var yScroll:Float = Math.max(0.25 - (0.05 * (optionShit.length - 4)), 0.1);
-		var bg:FlxSprite = new FlxSprite(-80).loadGraphic(Paths.image('menuBG'));
+		bg = new FlxSprite(-80).loadGraphic(Paths.image('menuBG'));
 		bg.scrollFactor.set(0, yScroll);
 		bg.setGraphicSize(Std.int(bg.width * 1.175));
 		bg.updateHitbox();
 		bg.screenCenter();
+		bgIniX = bg.x;
 		bg.antialiasing = ClientPrefs.globalAntialiasing;
 		add(bg);
 
@@ -155,6 +159,10 @@ class MainMenuState extends MusicBeatState
 		{
 			FlxG.sound.music.volume += 0.5 * FlxG.elapsed;
 		}
+
+		bg.x = bgIniX + Math.cos(bgAng / 160) * 60;
+		bgAng ++;
+		magenta.x = bg.x;
 
 		var lerpVal:Float = CoolUtil.boundTo(elapsed * 5.6, 0, 1);
 		camFollowPos.setPosition(FlxMath.lerp(camFollowPos.x, camFollow.x, lerpVal), FlxMath.lerp(camFollowPos.y, camFollow.y, lerpVal));
