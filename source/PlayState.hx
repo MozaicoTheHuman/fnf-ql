@@ -2086,13 +2086,13 @@ class PlayState extends MusicBeatState
 
 				if(value != 0) {
 					if(dad.curCharacter == 'gf') { //Tutorial GF is actually Dad! The GF is an imposter!! ding ding ding ding ding ding ding, dindinding, end my suffering
-						dad.playAnim('cheer', true);
+						/*dad.playAnim('cheer', true);
 						dad.specialAnim = true;
-						dad.heyTimer = time;
+						dad.heyTimer = time;*/
 					} else {
-						gf.playAnim('cheer', true);
+						/*gf.playAnim('cheer', true);
 						gf.specialAnim = true;
-						gf.heyTimer = time;
+						gf.heyTimer = time;*/
 					}
 
 					if(curStage == 'mall') {
@@ -2967,9 +2967,9 @@ class PlayState extends MusicBeatState
 				boyfriend.specialAnim = true;
 				boyfriend.heyTimer = 0.6;
 
-				gf.playAnim('cheer', true);
-				gf.specialAnim = true;
-				gf.heyTimer = 0.6;
+				//gf.playAnim('cheer', true);
+				//gf.specialAnim = true;
+				//gf.heyTimer = 0.6;
 			} else {
 				var daAlt = '';
 				if(note.noteType == 1) daAlt = '-alt';

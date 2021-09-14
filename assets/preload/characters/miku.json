@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				56,
+				4
+			],
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Miku Sing Note LEFT"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				34,
+				0
+			],
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Miku Sing Note DOWN"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				17,
+				51
+			],
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Miku Sing Note UP"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-61,
+				2
+			],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Miku Sing Note RIGHT"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				1
+			],
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Miku idle dance"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/mikuChilean",
+	"position": [
+		0,
+		10
+	],
+	"healthicon": "miku",
+	"flip_x": false,
+	"healthbar_colors": [
+		50,
+		205,
+		204
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}
