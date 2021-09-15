@@ -1,0 +1,7 @@
+bf:right dearest:left ivette:left maavo:left maritza:left
+
+:0:talk:0.05:1:uno
+:1:talk:0.05:0:dos
+:2:talk:0.05:0:tres
+:3:talk:0.05:0:cuatro
+:4:talk:0.05:0:cinco
