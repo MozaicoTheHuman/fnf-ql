@@ -1,27 +1,13 @@
-bf:right dearest:left ivette:left maavo:left maritza:left shaggy:left scooby:left matt:left
-:0:talk:0.05:0:uno
-:1:talk:0.05:0:dos
-:1:angry:0.05:0:tres
-:2:talk:0.05:0:cuatro
-:2:angry:0.05:0:cinco
-:3:scared:0.05:0:seis
-:3:talk:0.05:0:siete
-:3:what:0.05:0:ocho
-:4:confident:0.05:0:nueve
-:4:talk:0.05:0:10
-:4:what:0.05:0:once
-:4:happy:0.05:0:doce
-:4:funny:0.05:0:trece
-:5:sad:0.05:0:14
-:5:talk:0.05:0:15
-:5:happy:0.05:0:a
-:5:funny:0.05:0:b
-:6:alert:0.05:0:c
-:6:talk:0.05:0:d
-:6:happy:0.05:0:e
-:6:hungry:0.05:0:f
-:7:talk:0.05:0:lol
-:7:angry:0.05:0:lol
-:7:rage:0.05:0:lol
-:7:happy:0.05:0:lol
-:7:what:0.05:0:lol
+bf:right dearest:left ivette:left maavo:left maritza:left
+:1:angry:0.05:0:Ya par de weoncitos venga pa aca.
+:0:talk:0.05:0:Beep
+:1:talk:0.05:0:Dale po tengo hambre ponte vio\ny anda a traer carbon del unimarc\npal asaito po weon.
+:0:talk:0.05:0:...
+:0:talk:0.05:0:Beep boop
+:0:talk:0.05:0:Beep bo beep
+:2:angry:0.05:0:A VER CHUCHETUMARE Como me veni\na decir eso
+:3:what:0.05:0:Huh? ¿Que haces aqui enano?
+:0:talk:0.05:0:Beep
+:4:happy:0.05:0:¡HOLA CHIQUITIN! ¿Te acuerdas de mi?
+:4:funny:0.05:0:...???
+:4:confident:0.05:0:Viniste por revancha? muy mal,\nahora estoy en mi elemento.
