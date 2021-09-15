@@ -66,6 +66,7 @@ class CreditsState extends MusicBeatState
 	var descText:FlxText;
 	var intendedColor:Int;
 	var colorTween:FlxTween;
+	var smol = true;
 
 	override function create()
 	{
@@ -95,9 +96,23 @@ class CreditsState extends MusicBeatState
 			grpOptions.add(optionText);
 
 			if(isSelectable) {
-				var icon:AttachedSprite = new AttachedSprite('credits/' + creditsStuff[i][1]);
+				var icnName = creditsStuff[i][1];
+				var icon:AttachedSprite = new AttachedSprite('credits/' + icnName);
 				icon.xAdd = optionText.width + 10;
+
+				if (smol)
+				{
+					icon.setGraphicSize(Std.int(icon.width * 0.64));
+					icon.offset.x += 10;
+					icon.offset.y += 30;
+				}
+
 				icon.sprTracker = optionText;
+
+				if (icnName == 'wach')
+				{
+					smol = false;
+				}
 	
 				// using a FlxGroup is too much fuss!
 				iconArray.push(icon);
