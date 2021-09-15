@@ -44,7 +44,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 				char.animation.addByPrefix('talk', 'bftalkloop', 24, true); //During dialogue
 				char.flipX = !char.flipX;
 
-			case 'psychic':
+			/*case 'psychic':
 				char.frames = Paths.getSparrowAtlas('dialogue/Psy_Dialogue'); //oppa gangnam style xddddd kill me
 				char.animation.addByPrefix('talkIdle', 'PSYtalk', 24, true);
 				char.animation.addByPrefix('talk', 'PSY loop', 24, true);
@@ -52,7 +52,42 @@ class DialogueBoxPsych extends FlxSpriteGroup
 				char.animation.addByPrefix('angry', 'PSY ANGRY loop', 24, true);
 				char.animation.addByPrefix('unamusedIdle', 'PSY unamused', 24, true);
 				char.animation.addByPrefix('unamused', 'PSY UNAMUSED loop', 24, true);
-				char.y -= 140;
+				char.y -= 140;*/
+			case 'dearest':
+				char.frames = Paths.getSparrowAtlas('dialogue/Papito_Dialogue');
+				char.animation.addByPrefix('talkIdle', 'papaFeliIdle', 24, true); //Dialogue ended
+				char.animation.addByPrefix('talk', 'papaFeli', 24, true); //During dialogue
+				char.animation.addByPrefix('angryIdle', 'papaEnojaoIdle', 24, true); //Dialogue ended
+				char.animation.addByPrefix('angry', 'papaEnojao', 24, true); //During dialogue
+
+			case 'ivette':
+				char.frames = Paths.getSparrowAtlas('dialogue/Ivette_Dialogue');
+				char.animation.addByPrefix('angryIdle', 'ivetteAngryIdle', 24, true); //Dialogue ended
+				char.animation.addByPrefix('angry', 'ivetteAngry', 24, true); //During dialogue
+				char.animation.addByPrefix('talkIdle', 'ivetteNormalIdle', 24, true); //Dialogue ended
+				char.animation.addByPrefix('talk', 'ivetteNormal', 24, true); //During dialogue
+
+			case 'maavo':
+				char.frames = Paths.getSparrowAtlas('dialogue/Ivette_Dialogue');
+				char.animation.addByPrefix('scaredIdle', 'MavoScaredIdle', 24, true); //Dialogue ended
+				char.animation.addByPrefix('scared', 'MavoScared', 24, true); //During dialogue
+				char.animation.addByPrefix('talkIdle', 'MavoIdle', 24, true); //Dialogue ended
+				char.animation.addByPrefix('talk', 'Mavo', 24, true); //During dialogue
+				char.animation.addByPrefix('whatIdle', 'MavoWhatIdle', 24, true); //Dialogue ended
+				char.animation.addByPrefix('what', 'MavoWhat', 24, true); //During dialogue
+
+			case 'maritza':
+				char.frames = Paths.getSparrowAtlas('dialogue/Ivette_Dialogue');
+				char.animation.addByPrefix('confidentIdle', 'maritzaConfidentIdle', 24, true); //Dialogue ended
+				char.animation.addByPrefix('confident', 'maritzaConfident', 24, true); //During dialogue
+				char.animation.addByPrefix('talkIdle', 'maritzaNormalIdle', 24, true); //Dialogue ended
+				char.animation.addByPrefix('talk', 'maritzaNormal', 24, true); //During dialogue
+				char.animation.addByPrefix('whatIdle', 'maritzaWhatIdle', 24, true); //Dialogue ended
+				char.animation.addByPrefix('what', 'maritzaWhat', 24, true); //During dialogue
+				char.animation.addByPrefix('happyIdle', 'maritzaHappyIdle', 24, true); //Dialogue ended
+				char.animation.addByPrefix('happy', 'maritzaHappy', 24, true); //During dialogue
+				char.animation.addByPrefix('funnyIdle', 'maritzaFunny', 24, true); //Dialogue ended
+				char.animation.addByPrefix('funny', 'maritzaFunny', 24, true); //During dialogue
 		}
 		char.animation.play('talkIdle', true);
 	}
