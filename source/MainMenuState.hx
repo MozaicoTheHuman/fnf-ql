@@ -160,9 +160,9 @@ class MainMenuState extends MusicBeatState
 			FlxG.sound.music.volume += 0.5 * FlxG.elapsed;
 		}
 
+		bgAng += 120 / ClientPrefs.framerate;
 		bg.x = bgIniX + Math.cos(bgAng / 160) * 60;
 		bg.angle = Math.sin(0.0 + bgAng / 160) * 5;
-		bgAng ++;
 		magenta.x = bg.x;
 		magenta.angle = bg.angle;
 
