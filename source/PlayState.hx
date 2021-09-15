@@ -287,17 +287,17 @@ class PlayState extends MusicBeatState
 
 				defaultCamZoom = 0.65;
 
-				var bg:BGSprite = new BGSprite('unimarc/Back', -1040, -630, 0.95, 0.95);
-				bg.setGraphicSize(Std.int(bg.width * 1.34));
+				var bg:BGSprite = new BGSprite('unimarc/Back', -1540, -950, 0.95, 0.95);
+				bg.setGraphicSize(Std.int(bg.width * 1.55));
 				bg.updateHitbox();
 				add(bg);
 
-				upperBoppers = new BGSprite('unimarc/Shy__Pico_HUASOS_assets', 1100, 350, 0.95, 0.95, ['Both_idles']);
+				upperBoppers = new BGSprite('unimarc/Shy__Pico_HUASOS_assets', 1250, 350, 0.95, 0.95, ['Both_idles']);
 				upperBoppers.setGraphicSize(Std.int(upperBoppers.width * 0.85));
 				upperBoppers.updateHitbox();
 				add(upperBoppers);
 
-				leftBoppers = new BGSprite('unimarc/sulayrecameo', 125, 290, 0.95, 0.95, ['sulayrebopper']);
+				leftBoppers = new BGSprite('unimarc/sulayrecameo', 45, 290, 0.95, 0.95, ['sulayrebopper']);
 				leftBoppers.setGraphicSize(Std.int(upperBoppers.width * 0.425));
 				leftBoppers.updateHitbox();
 				add(leftBoppers);
