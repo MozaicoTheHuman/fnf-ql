@@ -311,8 +311,8 @@ class PlayState extends MusicBeatState
 
 				defaultCamZoom = 0.65;
 
-				var circle:BGSprite = new BGSprite('secrettoplol/circle', -350, -600, 0.85, 0.85);
-				circle.setGraphicSize(Std.int(circle.width * 3.4));
+				var circle:BGSprite = new BGSprite('secrettoplol/circle', -550, -650, 0.85, 0.85);
+				circle.setGraphicSize(Std.int(circle.width * 3.6));
 				circle.updateHitbox();
 				circle.antialiasing = true;
 				add(circle);

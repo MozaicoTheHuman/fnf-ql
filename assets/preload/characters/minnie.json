@@ -1,141 +1,141 @@
 {
 	"animations": [
 		{
-			"offsets": [
-				-9,
-				10
-			],
 			"loop": false,
+			"offsets": [
+				-157,
+				-303
+			],
+			"fps": 24,
 			"anim": "singLEFT",
-			"fps": 24,
-			"name": "Pendeja LEFT",
-			"indices": []
+			"indices": [],
+			"name": "Pendeja LEFT"
 		},
 		{
-			"offsets": [
-				0,
-				-30
-			],
 			"loop": false,
+			"offsets": [
+				-180,
+				-330
+			],
+			"fps": 24,
 			"anim": "singDOWN",
-			"fps": 24,
-			"name": "Pendeja DOWN",
-			"indices": []
+			"indices": [],
+			"name": "Pendeja DOWN"
 		},
 		{
-			"offsets": [
-				-6,
-				50
-			],
 			"loop": false,
+			"offsets": [
+				-127,
+				-323
+			],
+			"fps": 24,
 			"anim": "singUP",
-			"fps": 24,
-			"name": "Pendeja UP",
-			"indices": []
+			"indices": [],
+			"name": "Pendeja UP"
 		},
 		{
-			"offsets": [
-				0,
-				27
-			],
 			"loop": false,
+			"offsets": [
+				-120,
+				-339
+			],
+			"fps": 24,
 			"anim": "singRIGHT",
-			"fps": 24,
-			"name": "Pendeja RIGHT",
-			"indices": []
+			"indices": [],
+			"name": "Pendeja RIGHT"
 		},
 		{
-			"offsets": [
-				0,
-				0
-			],
 			"loop": false,
+			"offsets": [
+				-130,
+				-327
+			],
+			"fps": 24,
 			"anim": "idle",
+			"indices": [],
+			"name": "Pendeja IDLE"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-130,
+				-327
+			],
+			"anim": "idle-loop",
 			"fps": 24,
 			"name": "Pendeja IDLE",
-			"indices": []
-		},
-		{
-			"offsets": [
-				0,
-				0
-			],
-			"loop": true,
-			"fps": 24,
-			"anim": "idle-loop",
 			"indices": [
 				10,
 				11,
 				12,
 				12
-			],
-			"name": "Pendeja IDLE"
+			]
 		},
 		{
-			"offsets": [
-				-9,
-				10
-			],
 			"loop": true,
-			"fps": 24,
+			"offsets": [
+				-156,
+				-303
+			],
 			"anim": "singLEFT-loop",
+			"fps": 24,
+			"name": "Pendeja LEFT",
 			"indices": [
 				12,
 				13,
 				14,
 				15
-			],
-			"name": "Pendeja LEFT"
+			]
 		},
 		{
-			"offsets": [
-				0,
-				27
-			],
 			"loop": true,
-			"fps": 24,
+			"offsets": [
+				-156,
+				-303
+			],
 			"anim": "singRIGHT-loop",
+			"fps": 24,
+			"name": "Pendeja RIGHT",
 			"indices": [
 				15,
 				16,
 				17,
 				18
-			],
-			"name": "Pendeja RIGHT"
+			]
 		},
 		{
-			"offsets": [
-				-6,
-				50
-			],
 			"loop": true,
-			"fps": 24,
+			"offsets": [
+				-156,
+				-303
+			],
 			"anim": "singUP-loop",
+			"fps": 24,
+			"name": "Pendeja UP",
 			"indices": [
 				56,
 				57,
 				58,
 				59
-			],
-			"name": "Pendeja UP"
+			]
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/minnie_maricona",
 	"position": [
 		0,
-		0
+		20
 	],
 	"healthicon": "maracaculia",
 	"flip_x": false,
 	"healthbar_colors": [
-		175,
-		102,
-		206
+		206,
+		160,
+		251
 	],
 	"camera_position": [
-		0,
-		0
+		10,
+		330
 	],
 	"sing_duration": 6.1,
 	"scale": 1
