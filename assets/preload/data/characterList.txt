@@ -7,3 +7,5 @@ shag
 pendeja
 bf-pendeja
 bf-cueca
+bf-minnie
+minnie

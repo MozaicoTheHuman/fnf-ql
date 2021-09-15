@@ -301,11 +301,27 @@ class PlayState extends MusicBeatState
 				leftBoppers.setGraphicSize(Std.int(upperBoppers.width * 0.425));
 				leftBoppers.updateHitbox();
 				add(leftBoppers);
-				
-                bottomBoppers = new BGSprite('unimarc/genteFront', -565, -410, 1.1, 1.1, ['BopCrowdFront']);
-                bottomBoppers.setGraphicSize(Std.int(bottomBoppers.width * 1.15));
-                bottomBoppers.updateHitbox();
 
+				bottomBoppers = new BGSprite('unimarc/genteFront', -565, -410, 1.1, 1.1, ['BopCrowdFront']);
+				bottomBoppers.setGraphicSize(Std.int(bottomBoppers.width * 1.15));
+				bottomBoppers.updateHitbox();
+
+			case 'chocona':
+				curStage = 'playground';
+
+				defaultCamZoom = 0.65;
+
+				var circle:BGSprite = new BGSprite('secrettoplol/circle', -350, -600, 0.85, 0.85);
+				circle.setGraphicSize(Std.int(circle.width * 3.4));
+				circle.updateHitbox();
+				circle.antialiasing = true;
+				add(circle);
+				FlxTween.angle(circle,circle.angle,360,20,{type:LOOPING});
+
+				var bg:BGSprite = new BGSprite('secrettoplol/Ground', -555, -400, 0.95, 0.95);
+				bg.setGraphicSize(Std.int(bg.width * 1.4));
+				bg.updateHitbox();
+				add(bg);
 			default:
 				defaultCamZoom = 0.9;
 				curStage = 'stage';
@@ -427,7 +443,8 @@ class PlayState extends MusicBeatState
 				add(evilTrail);
 		}
 
-		add(gfGroup);
+		if (curStage != 'playground')
+			add(gfGroup);
 
 		// Shitty layering but whatev it works LOL
 		if (curStage == 'limo')

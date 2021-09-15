@@ -3,19 +3,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				-157,
-				-303
-			],
-			"fps": 24,
-			"anim": "singLEFT",
-			"indices": [],
-			"name": "Pendeja LEFT"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-180,
-				-330
+				-112,
+				-309
 			],
 			"fps": 24,
 			"anim": "singDOWN",
@@ -25,8 +14,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				-127,
-				-323
+				-136,
+				-303
 			],
 			"fps": 24,
 			"anim": "singUP",
@@ -36,19 +25,8 @@
 		{
 			"loop": false,
 			"offsets": [
-				-120,
-				-339
-			],
-			"fps": 24,
-			"anim": "singRIGHT",
-			"indices": [],
-			"name": "Pendeja RIGHT"
-		},
-		{
-			"loop": false,
-			"offsets": [
 				-130,
-				-327
+				-307
 			],
 			"fps": 24,
 			"anim": "idle",
@@ -59,7 +37,7 @@
 			"loop": true,
 			"offsets": [
 				-130,
-				-327
+				-307
 			],
 			"anim": "idle-loop",
 			"fps": 24,
@@ -74,8 +52,8 @@
 		{
 			"loop": true,
 			"offsets": [
-				-156,
-				-303
+				-9,
+				10
 			],
 			"anim": "singLEFT-loop",
 			"fps": 24,
@@ -90,8 +68,8 @@
 		{
 			"loop": true,
 			"offsets": [
-				-156,
-				-303
+				0,
+				27
 			],
 			"anim": "singRIGHT-loop",
 			"fps": 24,
@@ -106,8 +84,8 @@
 		{
 			"loop": true,
 			"offsets": [
-				-156,
-				-303
+				-6,
+				50
 			],
 			"anim": "singUP-loop",
 			"fps": 24,
@@ -118,23 +96,56 @@
 				58,
 				59
 			]
+		},
+		{
+			"offsets": [
+				-147,
+				-283
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "hey",
+			"indices": [],
+			"name": "Pendeja LEFT"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-127,
+				-318
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "Pendeja RIGHT",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-144,
+				-284
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Pendeja LEFT",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/pendeja",
 	"position": [
 		0,
-		20
+		0
 	],
-	"healthicon": "maracaculia",
+	"healthicon": "dad",
 	"flip_x": false,
 	"healthbar_colors": [
-		206,
-		160,
-		251
+		175,
+		102,
+		206
 	],
 	"camera_position": [
-		10,
+		-140,
 		330
 	],
 	"sing_duration": 6.1,
