@@ -11,6 +11,9 @@
 	<SubTexture name="ivetteAngry0006" x="1158" y="10" width="564" height="815" frameX="0" frameY="0" frameWidth="564" frameHeight="816"/>
 	<SubTexture name="ivetteAngry0007" x="1158" y="10" width="564" height="815" frameX="0" frameY="0" frameWidth="564" frameHeight="816"/>
 	<SubTexture name="ivetteAngry0008" x="1158" y="10" width="564" height="815" frameX="0" frameY="0" frameWidth="564" frameHeight="816"/>
+	<SubTexture name="ivetteAngryIdle0000" x="1158" y="10" width="564" height="815" frameX="0" frameY="0" frameWidth="564" frameHeight="816"/>
+	<SubTexture name="ivetteAngryIdle0001" x="1158" y="10" width="564" height="815" frameX="0" frameY="0" frameWidth="564" frameHeight="816"/>
+	<SubTexture name="ivetteAngryIdle0002" x="1158" y="10" width="564" height="815" frameX="0" frameY="0" frameWidth="564" frameHeight="816"/>
 	<SubTexture name="ivetteNormal0000" x="10" y="835" width="564" height="815" frameX="0" frameY="0" frameWidth="565" frameHeight="815"/>
 	<SubTexture name="ivetteNormal0001" x="10" y="835" width="564" height="815" frameX="0" frameY="0" frameWidth="565" frameHeight="815"/>
 	<SubTexture name="ivetteNormal0002" x="10" y="835" width="564" height="815" frameX="0" frameY="0" frameWidth="565" frameHeight="815"/>
@@ -20,4 +23,7 @@
 	<SubTexture name="ivetteNormal0006" x="1158" y="835" width="564" height="814" frameX="0" frameY="-1" frameWidth="565" frameHeight="815"/>
 	<SubTexture name="ivetteNormal0007" x="1158" y="835" width="564" height="814" frameX="0" frameY="-1" frameWidth="565" frameHeight="815"/>
 	<SubTexture name="ivetteNormal0008" x="1158" y="835" width="564" height="814" frameX="0" frameY="-1" frameWidth="565" frameHeight="815"/>
+	<SubTexture name="ivetteNormalIdle0000" x="1158" y="835" width="564" height="814" frameX="0" frameY="0" frameWidth="565" frameHeight="815"/>
+	<SubTexture name="ivetteNormalIdle0001" x="1158" y="835" width="564" height="814" frameX="0" frameY="0" frameWidth="565" frameHeight="815"/>
+	<SubTexture name="ivetteNormalIdle0002" x="1158" y="835" width="564" height="814" frameX="0" frameY="0" frameWidth="565" frameHeight="815"/>
 </TextureAtlas>
