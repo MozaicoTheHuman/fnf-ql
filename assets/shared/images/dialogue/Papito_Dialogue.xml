@@ -2,16 +2,28 @@
 <TextureAtlas imagePath="Papito_Dialogue.png">
 	<!-- Created with Adobe Animate version 18.0.2.126 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="papaFeli0000" x="10" y="10" width="287" height="346" frameX="0" frameY="-1" frameWidth="287" frameHeight="347"/>
-	<SubTexture name="papaFeli0001" x="10" y="10" width="287" height="346" frameX="0" frameY="-1" frameWidth="287" frameHeight="347"/>
-	<SubTexture name="papaFeli0002" x="10" y="10" width="287" height="346" frameX="0" frameY="-1" frameWidth="287" frameHeight="347"/>
-	<SubTexture name="papaFeli0003" x="307" y="10" width="287" height="347"/>
-	<SubTexture name="papaFeli0004" x="307" y="10" width="287" height="347"/>
-	<SubTexture name="papaFeli0005" x="307" y="10" width="287" height="347"/>
-	<SubTexture name="papaFeli0006" x="604" y="10" width="287" height="346" frameX="0" frameY="-1" frameWidth="287" frameHeight="347"/>
-	<SubTexture name="papaFeli0007" x="604" y="10" width="287" height="346" frameX="0" frameY="-1" frameWidth="287" frameHeight="347"/>
-	<SubTexture name="papaFeli0008" x="604" y="10" width="287" height="346" frameX="0" frameY="-1" frameWidth="287" frameHeight="347"/>
-	<SubTexture name="papaFeliIdle0000" x="604" y="10" width="287" height="346" frameX="0" frameY="0" frameWidth="287" frameHeight="347"/>
-	<SubTexture name="papaFeliIdle0001" x="604" y="10" width="287" height="346" frameX="0" frameY="0" frameWidth="287" frameHeight="347"/>
-	<SubTexture name="papaFeliIdle0002" x="604" y="10" width="287" height="346" frameX="0" frameY="0" frameWidth="287" frameHeight="347"/>
+	<SubTexture name="papaEnojao0000" x="10" y="10" width="287" height="344" frameX="-1" frameY="0" frameWidth="288" frameHeight="344"/>
+	<SubTexture name="papaEnojao0001" x="10" y="10" width="287" height="344" frameX="-1" frameY="0" frameWidth="288" frameHeight="344"/>
+	<SubTexture name="papaEnojao0002" x="10" y="10" width="287" height="344" frameX="-1" frameY="0" frameWidth="288" frameHeight="344"/>
+	<SubTexture name="papaEnojao0003" x="307" y="10" width="288" height="344"/>
+	<SubTexture name="papaEnojao0004" x="307" y="10" width="288" height="344"/>
+	<SubTexture name="papaEnojao0005" x="307" y="10" width="288" height="344"/>
+	<SubTexture name="papaEnojao0006" x="605" y="10" width="287" height="344" frameX="0" frameY="0" frameWidth="288" frameHeight="344"/>
+	<SubTexture name="papaEnojao0007" x="605" y="10" width="287" height="344" frameX="0" frameY="0" frameWidth="288" frameHeight="344"/>
+	<SubTexture name="papaEnojao0008" x="605" y="10" width="287" height="344" frameX="0" frameY="0" frameWidth="288" frameHeight="344"/>
+	<SubTexture name="papaEnojaoIdle0000" x="605" y="10" width="287" height="344" frameX="0" frameY="0" frameWidth="288" frameHeight="344"/>
+	<SubTexture name="papaEnojaoIdle0001" x="605" y="10" width="287" height="344" frameX="0" frameY="0" frameWidth="288" frameHeight="344"/>
+	<SubTexture name="papaEnojaoIdle0002" x="605" y="10" width="287" height="344" frameX="0" frameY="0" frameWidth="288" frameHeight="344"/>
+	<SubTexture name="papaFeli0000" x="10" y="364" width="287" height="346" frameX="0" frameY="-1" frameWidth="287" frameHeight="347"/>
+	<SubTexture name="papaFeli0001" x="10" y="364" width="287" height="346" frameX="0" frameY="-1" frameWidth="287" frameHeight="347"/>
+	<SubTexture name="papaFeli0002" x="10" y="364" width="287" height="346" frameX="0" frameY="-1" frameWidth="287" frameHeight="347"/>
+	<SubTexture name="papaFeli0003" x="307" y="364" width="287" height="347"/>
+	<SubTexture name="papaFeli0004" x="307" y="364" width="287" height="347"/>
+	<SubTexture name="papaFeli0005" x="307" y="364" width="287" height="347"/>
+	<SubTexture name="papaFeli0006" x="604" y="364" width="287" height="346" frameX="0" frameY="-1" frameWidth="287" frameHeight="347"/>
+	<SubTexture name="papaFeli0007" x="604" y="364" width="287" height="346" frameX="0" frameY="-1" frameWidth="287" frameHeight="347"/>
+	<SubTexture name="papaFeli0008" x="604" y="364" width="287" height="346" frameX="0" frameY="-1" frameWidth="287" frameHeight="347"/>
+	<SubTexture name="papaFeliIdle0000" x="604" y="364" width="287" height="346" frameX="0" frameY="0" frameWidth="287" frameHeight="347"/>
+	<SubTexture name="papaFeliIdle0001" x="604" y="364" width="287" height="346" frameX="0" frameY="0" frameWidth="287" frameHeight="347"/>
+	<SubTexture name="papaFeliIdle0002" x="604" y="364" width="287" height="346" frameX="0" frameY="0" frameWidth="287" frameHeight="347"/>
 </TextureAtlas>
