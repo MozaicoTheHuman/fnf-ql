@@ -1,123 +1,123 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
-				-157,
+				-136,
 				-303
 			],
-			"fps": 24,
+			"loop": false,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "Pendeja LEFT"
+			"fps": 24,
+			"name": "Pendeja LEFT",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
-				-180,
+				-101,
 				-330
 			],
-			"fps": 24,
+			"loop": false,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "Pendeja DOWN"
+			"fps": 24,
+			"name": "Pendeja DOWN",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
-				-127,
+				-147,
 				-323
 			],
-			"fps": 24,
+			"loop": false,
 			"anim": "singUP",
-			"indices": [],
-			"name": "Pendeja UP"
+			"fps": 24,
+			"name": "Pendeja UP",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
-				-120,
+				-150,
 				-339
 			],
-			"fps": 24,
-			"anim": "singRIGHT",
-			"indices": [],
-			"name": "Pendeja RIGHT"
-		},
-		{
 			"loop": false,
-			"offsets": [
-				-130,
-				-327
-			],
+			"anim": "singRIGHT",
 			"fps": 24,
-			"anim": "idle",
-			"indices": [],
-			"name": "Pendeja IDLE"
+			"name": "Pendeja RIGHT",
+			"indices": []
 		},
 		{
-			"loop": true,
 			"offsets": [
 				-130,
 				-327
 			],
-			"anim": "idle-loop",
+			"loop": false,
+			"anim": "idle",
 			"fps": 24,
 			"name": "Pendeja IDLE",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-130,
+				-327
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle-loop",
 			"indices": [
 				10,
 				11,
 				12,
 				12
-			]
+			],
+			"name": "Pendeja IDLE"
 		},
 		{
-			"loop": true,
 			"offsets": [
-				-156,
+				-136,
 				-303
 			],
-			"anim": "singLEFT-loop",
+			"loop": true,
 			"fps": 24,
-			"name": "Pendeja LEFT",
+			"anim": "singLEFT-loop",
 			"indices": [
 				12,
 				13,
 				14,
 				15
-			]
+			],
+			"name": "Pendeja LEFT"
 		},
 		{
-			"loop": true,
 			"offsets": [
-				-156,
+				-136,
 				-303
 			],
-			"anim": "singRIGHT-loop",
+			"loop": true,
 			"fps": 24,
-			"name": "Pendeja RIGHT",
+			"anim": "singRIGHT-loop",
 			"indices": [
 				15,
 				16,
 				17,
 				18
-			]
+			],
+			"name": "Pendeja RIGHT"
 		},
 		{
-			"loop": true,
 			"offsets": [
-				-156,
+				-136,
 				-303
 			],
-			"anim": "singUP-loop",
+			"loop": true,
 			"fps": 24,
-			"name": "Pendeja UP",
+			"anim": "singUP-loop",
 			"indices": [
 				56,
 				57,
 				58,
 				59
-			]
+			],
+			"name": "Pendeja UP"
 		}
 	],
 	"no_antialiasing": false,
