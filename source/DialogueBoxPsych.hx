@@ -68,7 +68,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 				char.animation.addByPrefix('talk', 'ivetteNormal', 24, true); //During dialogue
 
 			case 'maavo':
-				char.frames = Paths.getSparrowAtlas('dialogue/Ivette_Dialogue');
+				char.frames = Paths.getSparrowAtlas('dialogue/Maavo_Dialogue');
 				char.animation.addByPrefix('scaredIdle', 'MavoScaredIdle', 24, true); //Dialogue ended
 				char.animation.addByPrefix('scared', 'MavoScared', 24, true); //During dialogue
 				char.animation.addByPrefix('talkIdle', 'MavoIdle', 24, true); //Dialogue ended
@@ -77,7 +77,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 				char.animation.addByPrefix('what', 'MavoWhat', 24, true); //During dialogue
 
 			case 'maritza':
-				char.frames = Paths.getSparrowAtlas('dialogue/Ivette_Dialogue');
+				char.frames = Paths.getSparrowAtlas('dialogue/Maritza_Dialogue');
 				char.animation.addByPrefix('confidentIdle', 'maritzaConfidentIdle', 24, true); //Dialogue ended
 				char.animation.addByPrefix('confident', 'maritzaConfident', 24, true); //During dialogue
 				char.animation.addByPrefix('talkIdle', 'maritzaNormalIdle', 24, true); //Dialogue ended
@@ -88,6 +88,41 @@ class DialogueBoxPsych extends FlxSpriteGroup
 				char.animation.addByPrefix('happy', 'maritzaHappy', 24, true); //During dialogue
 				char.animation.addByPrefix('funnyIdle', 'maritzaFunny', 24, true); //Dialogue ended
 				char.animation.addByPrefix('funny', 'maritzaFunny', 24, true); //During dialogue
+
+			case 'shaggy':
+				char.frames = Paths.getSparrowAtlas('dialogue/Shaggy_Dialogue');
+				char.animation.addByPrefix('sadIdle', 'ShaggSadIdle', 24, true); //Dialogue ended
+				char.animation.addByPrefix('sad', 'ShaggSad', 24, true); //During dialogue
+				char.animation.addByPrefix('talkIdle', 'ShaggNormalIdle', 24, true); //Dialogue ended
+				char.animation.addByPrefix('talk', 'ShaggNormal', 24, true); //During dialogue
+				char.animation.addByPrefix('happyIdle', 'ShaggHappyIdle', 24, true); //Dialogue ended
+				char.animation.addByPrefix('happy', 'ShaggHappy', 24, true); //During dialogue
+				char.animation.addByPrefix('funnyIdle', 'ShaggFunnyIdle', 24, true); //Dialogue ended
+				char.animation.addByPrefix('funny', 'ShaggFunny', 24, true); //During dialogue
+
+			case 'scooby':
+				char.frames = Paths.getSparrowAtlas('dialogue/ScoobyDou_Dialogue');
+				char.animation.addByPrefix('talkIdle', 'ScoobyIdle', 24, true); //Dialogue ended
+				char.animation.addByPrefix('talk', 'Scooby', 24, true); //During dialogue
+				char.animation.addByPrefix('alertIdle', 'ScoobyAlertIdle', 24, true); //Dialogue ended
+				char.animation.addByPrefix('alert', 'ScoobyAlert', 24, true); //During dialogue
+				char.animation.addByPrefix('happyIdle', 'ScoobyHappyIdle', 24, true); //Dialogue ended
+				char.animation.addByPrefix('happy', 'ScoobyHappy', 24, true); //During dialogue
+				char.animation.addByPrefix('hungryIdle', 'ScoobyHungryIdle', 24, true); //Dialogue ended
+				char.animation.addByPrefix('hungry', 'ScoobyHungry', 24, true); //During dialogue
+
+			case 'matt':
+				char.frames = Paths.getSparrowAtlas('dialogue/Matt_Dialogue');
+				char.animation.addByPrefix('talkIdle', 'mattNormalIdle', 24, true); //Dialogue ended
+				char.animation.addByPrefix('talk', 'mattNormal', 24, true); //During dialogue
+				char.animation.addByPrefix('angryIdle', 'mattAngryIdle', 24, true); //Dialogue ended
+				char.animation.addByPrefix('angry', 'mattAngry', 24, true); //During dialogue
+				char.animation.addByPrefix('rageIdle', 'mattENPUTADOIdle', 24, true); //Dialogue ended
+				char.animation.addByPrefix('rage', 'mattENPUTADO', 24, true); //During dialogue
+				char.animation.addByPrefix('happyIdle', 'mattHappyIdle', 24, true); //Dialogue ended
+				char.animation.addByPrefix('happy', 'mattHappyNormal', 24, true); //During dialogue
+				char.animation.addByPrefix('whatIdle', 'mattWhat', 24, true); //Dialogue ended
+				char.animation.addByPrefix('what', 'mattWhat', 24, true); //During dialogue
 		}
 		char.animation.play('talkIdle', true);
 	}
