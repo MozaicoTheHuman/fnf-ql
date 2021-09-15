@@ -24,18 +24,24 @@ class CreditsState extends MusicBeatState
 	private var iconArray:Array<AttachedSprite> = [];
 
 	private static var creditsStuff:Array<Dynamic> = [ //Name - Icon name - Description - Link - BG Color
-		['Psych Engine Team'],
-		['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',					'https://twitter.com/Shadow_Mario_',	0xFFFFDD33],
-		['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',				'https://twitter.com/river_oaken',		0xFFC30085],
+		['Equipo Chilensis'],
+		['Salitre', 'discord', '', 'https://twitter.com/Sulayre', 0xFFFFDD33],
+		['Shyrell', 'discord', '', 'https://twitter.com/Sulayre', 0xFFFFDD33],
+		['Mozaico', 'discord', '', 'https://twitter.com/Sulayre', 0xFFFFDD33],
+		['Pointy', 'discord', '', 'https://twitter.com/Sulayre', 0xFFFFDD33],
+		['me aburri sul sigue tu', 'discord', '', '', 0xFFFFDD33],
+		['Equipo Psych Engine'],
+		['Shadow Mario',		'shadowmario',		'Programador principal de Psych Engine',					'https://twitter.com/Shadow_Mario_',	0xFFFFDD33],
+		['RiverOaken',			'riveroaken',		'Artista y animador principal de Psych Engine',				'https://twitter.com/river_oaken',		0xFFC30085],
 		[''],
-		['Special Thanks'],
-		['Keoiki',				'keoiki',			'Note Splash Animations',							'https://twitter.com/Keoiki_',			0xFFFFFFFF],
+		['Gracias especiales'],
+		['Keoiki',				'keoiki',			'Animaciones de los Note Splash',							'https://twitter.com/Keoiki_',			0xFFFFFFFF],
 		[''],
-		["Funkin' Crew"],
-		['ninjamuffin99',		'ninjamuffin99',	"Programmer of Friday Night Funkin'",				'https://twitter.com/ninja_muffin99',	0xFFF73838],
-		['PhantomArcade',		'phantomarcade',	"Animator of Friday Night Funkin'",					'https://twitter.com/PhantomArcade3K',	0xFFFFBB1B],
-		['evilsk8r',			'evilsk8r',			"Artist of Friday Night Funkin'",					'https://twitter.com/evilsk8r',			0xFF53E52C],
-		['kawaisprite',			'kawaisprite',		"Composer of Friday Night Funkin'",					'https://twitter.com/kawaisprite',		0xFF6475F3]
+		["Los que hicieron el Funkin'"],
+		['ninjamuffin99',		'ninjamuffin99',	"Programador del Friday Night Funkin'",				'https://twitter.com/ninja_muffin99',	0xFFF73838],
+		['PhantomArcade',		'phantomarcade',	"Animador del Friday Night Funkin'",					'https://twitter.com/PhantomArcade3K',	0xFFFFBB1B],
+		['evilsk8r',			'evilsk8r',			"Artista del Friday Night Funkin'",					'https://twitter.com/evilsk8r',			0xFF53E52C],
+		['kawaisprite',			'kawaisprite',		"Compositor del Friday Night Funkin'",					'https://twitter.com/kawaisprite',		0xFF6475F3]
 	];
 
 	var bg:FlxSprite;
