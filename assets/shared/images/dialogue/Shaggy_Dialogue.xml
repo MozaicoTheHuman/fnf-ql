@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Shaggy_Dialogue.png">
+	<!-- Created with Adobe Animate version 18.0.2.126 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="ShaggFunny0000" x="10" y="10" width="1170" height="1314"/>
+	<SubTexture name="ShaggFunny0001" x="10" y="10" width="1170" height="1314"/>
+	<SubTexture name="ShaggFunny0002" x="10" y="10" width="1170" height="1314"/>
+	<SubTexture name="ShaggFunny0003" x="10" y="10" width="1170" height="1314"/>
+	<SubTexture name="ShaggFunny0004" x="10" y="10" width="1170" height="1314"/>
+	<SubTexture name="ShaggFunny0005" x="10" y="10" width="1170" height="1314"/>
+	<SubTexture name="ShaggFunny0006" x="10" y="10" width="1170" height="1314"/>
+	<SubTexture name="ShaggFunny0007" x="10" y="10" width="1170" height="1314"/>
+	<SubTexture name="ShaggFunny0008" x="10" y="10" width="1170" height="1314"/>
+	<SubTexture name="ShaggHappy0000" x="1190" y="10" width="1170" height="1314" frameX="0" frameY="0" frameWidth="1171" frameHeight="1314"/>
+	<SubTexture name="ShaggHappy0001" x="1190" y="10" width="1170" height="1314" frameX="0" frameY="0" frameWidth="1171" frameHeight="1314"/>
+	<SubTexture name="ShaggHappy0002" x="1190" y="10" width="1170" height="1314" frameX="0" frameY="0" frameWidth="1171" frameHeight="1314"/>
+	<SubTexture name="ShaggHappy0003" x="2370" y="10" width="1170" height="1314" frameX="0" frameY="0" frameWidth="1171" frameHeight="1314"/>
+	<SubTexture name="ShaggHappy0004" x="2370" y="10" width="1170" height="1314" frameX="0" frameY="0" frameWidth="1171" frameHeight="1314"/>
+	<SubTexture name="ShaggHappy0005" x="2370" y="10" width="1170" height="1314" frameX="0" frameY="0" frameWidth="1171" frameHeight="1314"/>
+	<SubTexture name="ShaggHappy0006" x="10" y="1334" width="1171" height="1314"/>
+	<SubTexture name="ShaggHappy0007" x="10" y="1334" width="1171" height="1314"/>
+	<SubTexture name="ShaggHappy0008" x="10" y="1334" width="1171" height="1314"/>
+	<SubTexture name="ShaggNormal0000" x="1191" y="1334" width="1170" height="1314" frameX="-1" frameY="0" frameWidth="1171" frameHeight="1314"/>
+	<SubTexture name="ShaggNormal0001" x="1191" y="1334" width="1170" height="1314" frameX="-1" frameY="0" frameWidth="1171" frameHeight="1314"/>
+	<SubTexture name="ShaggNormal0002" x="1191" y="1334" width="1170" height="1314" frameX="-1" frameY="0" frameWidth="1171" frameHeight="1314"/>
+	<SubTexture name="ShaggNormal0003" x="2371" y="1334" width="1170" height="1314" frameX="-1" frameY="0" frameWidth="1171" frameHeight="1314"/>
+	<SubTexture name="ShaggNormal0004" x="2371" y="1334" width="1170" height="1314" frameX="-1" frameY="0" frameWidth="1171" frameHeight="1314"/>
+	<SubTexture name="ShaggNormal0005" x="2371" y="1334" width="1170" height="1314" frameX="-1" frameY="0" frameWidth="1171" frameHeight="1314"/>
+	<SubTexture name="ShaggNormal0006" x="10" y="2658" width="1171" height="1314"/>
+	<SubTexture name="ShaggNormal0007" x="10" y="2658" width="1171" height="1314"/>
+	<SubTexture name="ShaggNormal0008" x="10" y="2658" width="1171" height="1314"/>
+	<SubTexture name="ShaggSad0000" x="1191" y="2658" width="1170" height="1314" frameX="-1" frameY="0" frameWidth="1171" frameHeight="1314"/>
+	<SubTexture name="ShaggSad0001" x="1191" y="2658" width="1170" height="1314" frameX="-1" frameY="0" frameWidth="1171" frameHeight="1314"/>
+	<SubTexture name="ShaggSad0002" x="1191" y="2658" width="1170" height="1314" frameX="-1" frameY="0" frameWidth="1171" frameHeight="1314"/>
+	<SubTexture name="ShaggSad0003" x="2371" y="2658" width="1171" height="1314"/>
+	<SubTexture name="ShaggSad0004" x="2371" y="2658" width="1171" height="1314"/>
+	<SubTexture name="ShaggSad0005" x="2371" y="2658" width="1171" height="1314"/>
+	<SubTexture name="ShaggSad0006" x="10" y="3982" width="1171" height="1314"/>
+	<SubTexture name="ShaggSad0007" x="10" y="3982" width="1171" height="1314"/>
+	<SubTexture name="ShaggSad0008" x="10" y="3982" width="1171" height="1314"/>
+</TextureAtlas>

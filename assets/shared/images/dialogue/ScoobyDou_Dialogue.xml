@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ScoobyDou_Dialogue.png">
+	<!-- Created with Adobe Animate version 18.0.2.126 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Scooby0000" x="10" y="10" width="692" height="1124"/>
+	<SubTexture name="Scooby0001" x="10" y="10" width="692" height="1124"/>
+	<SubTexture name="Scooby0002" x="10" y="10" width="692" height="1124"/>
+	<SubTexture name="Scooby0003" x="712" y="10" width="692" height="1123" frameX="0" frameY="0" frameWidth="692" frameHeight="1124"/>
+	<SubTexture name="Scooby0004" x="712" y="10" width="692" height="1123" frameX="0" frameY="0" frameWidth="692" frameHeight="1124"/>
+	<SubTexture name="Scooby0005" x="712" y="10" width="692" height="1123" frameX="0" frameY="0" frameWidth="692" frameHeight="1124"/>
+	<SubTexture name="Scooby0006" x="1414" y="10" width="692" height="1123" frameX="0" frameY="0" frameWidth="692" frameHeight="1124"/>
+	<SubTexture name="Scooby0007" x="1414" y="10" width="692" height="1123" frameX="0" frameY="0" frameWidth="692" frameHeight="1124"/>
+	<SubTexture name="Scooby0008" x="1414" y="10" width="692" height="1123" frameX="0" frameY="0" frameWidth="692" frameHeight="1124"/>
+	<SubTexture name="ScoobyAlert0000" x="2116" y="10" width="665" height="1359" frameX="0" frameY="-1" frameWidth="665" frameHeight="1360"/>
+	<SubTexture name="ScoobyAlert0001" x="2116" y="10" width="665" height="1359" frameX="0" frameY="-1" frameWidth="665" frameHeight="1360"/>
+	<SubTexture name="ScoobyAlert0002" x="2116" y="10" width="665" height="1359" frameX="0" frameY="-1" frameWidth="665" frameHeight="1360"/>
+	<SubTexture name="ScoobyAlert0003" x="2791" y="10" width="665" height="1359" frameX="0" frameY="-1" frameWidth="665" frameHeight="1360"/>
+	<SubTexture name="ScoobyAlert0004" x="2791" y="10" width="665" height="1359" frameX="0" frameY="-1" frameWidth="665" frameHeight="1360"/>
+	<SubTexture name="ScoobyAlert0005" x="2791" y="10" width="665" height="1359" frameX="0" frameY="-1" frameWidth="665" frameHeight="1360"/>
+	<SubTexture name="ScoobyAlert0006" x="10" y="1379" width="665" height="1359" frameX="0" frameY="0" frameWidth="665" frameHeight="1360"/>
+	<SubTexture name="ScoobyAlert0007" x="10" y="1379" width="665" height="1359" frameX="0" frameY="0" frameWidth="665" frameHeight="1360"/>
+	<SubTexture name="ScoobyAlert0008" x="10" y="1379" width="665" height="1359" frameX="0" frameY="0" frameWidth="665" frameHeight="1360"/>
+	<SubTexture name="ScoobyHappy0000" x="685" y="1379" width="749" height="1096"/>
+	<SubTexture name="ScoobyHappy0001" x="685" y="1379" width="749" height="1096"/>
+	<SubTexture name="ScoobyHappy0002" x="685" y="1379" width="749" height="1096"/>
+	<SubTexture name="ScoobyHappy0003" x="1444" y="1379" width="747" height="1079" frameX="0" frameY="-17" frameWidth="749" frameHeight="1096"/>
+	<SubTexture name="ScoobyHappy0004" x="1444" y="1379" width="747" height="1079" frameX="0" frameY="-17" frameWidth="749" frameHeight="1096"/>
+	<SubTexture name="ScoobyHappy0005" x="1444" y="1379" width="747" height="1079" frameX="0" frameY="-17" frameWidth="749" frameHeight="1096"/>
+	<SubTexture name="ScoobyHappy0006" x="2201" y="1379" width="746" height="1078" frameX="0" frameY="-18" frameWidth="749" frameHeight="1096"/>
+	<SubTexture name="ScoobyHappy0007" x="2201" y="1379" width="746" height="1078" frameX="0" frameY="-18" frameWidth="749" frameHeight="1096"/>
+	<SubTexture name="ScoobyHappy0008" x="2201" y="1379" width="746" height="1078" frameX="0" frameY="-18" frameWidth="749" frameHeight="1096"/>
+	<SubTexture name="ScoobyHungry0000" x="2957" y="1379" width="687" height="1200" frameX="-26" frameY="-1" frameWidth="713" frameHeight="1201"/>
+	<SubTexture name="ScoobyHungry0001" x="2957" y="1379" width="687" height="1200" frameX="-26" frameY="-1" frameWidth="713" frameHeight="1201"/>
+	<SubTexture name="ScoobyHungry0002" x="2957" y="1379" width="687" height="1200" frameX="-26" frameY="-1" frameWidth="713" frameHeight="1201"/>
+	<SubTexture name="ScoobyHungry0003" x="10" y="2748" width="713" height="1201"/>
+	<SubTexture name="ScoobyHungry0004" x="10" y="2748" width="713" height="1201"/>
+	<SubTexture name="ScoobyHungry0005" x="10" y="2748" width="713" height="1201"/>
+	<SubTexture name="ScoobyHungry0006" x="733" y="2748" width="675" height="1197" frameX="-37" frameY="-2" frameWidth="713" frameHeight="1201"/>
+	<SubTexture name="ScoobyHungry0007" x="733" y="2748" width="675" height="1197" frameX="-37" frameY="-2" frameWidth="713" frameHeight="1201"/>
+	<SubTexture name="ScoobyHungry0008" x="733" y="2748" width="675" height="1197" frameX="-37" frameY="-2" frameWidth="713" frameHeight="1201"/>
+</TextureAtlas>

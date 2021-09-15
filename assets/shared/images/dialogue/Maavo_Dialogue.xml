@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Maavo_Dialogue.png">
+	<!-- Created with Adobe Animate version 18.0.2.126 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Mavo0000" x="10" y="10" width="648" height="717" frameX="-1" frameY="0" frameWidth="649" frameHeight="717"/>
+	<SubTexture name="Mavo0001" x="10" y="10" width="648" height="717" frameX="-1" frameY="0" frameWidth="649" frameHeight="717"/>
+	<SubTexture name="Mavo0002" x="10" y="10" width="648" height="717" frameX="-1" frameY="0" frameWidth="649" frameHeight="717"/>
+	<SubTexture name="Mavo0003" x="668" y="10" width="648" height="717" frameX="-1" frameY="0" frameWidth="649" frameHeight="717"/>
+	<SubTexture name="Mavo0004" x="668" y="10" width="648" height="717" frameX="-1" frameY="0" frameWidth="649" frameHeight="717"/>
+	<SubTexture name="Mavo0005" x="668" y="10" width="648" height="717" frameX="-1" frameY="0" frameWidth="649" frameHeight="717"/>
+	<SubTexture name="Mavo0006" x="1326" y="10" width="648" height="717" frameX="0" frameY="0" frameWidth="649" frameHeight="717"/>
+	<SubTexture name="Mavo0007" x="1326" y="10" width="648" height="717" frameX="0" frameY="0" frameWidth="649" frameHeight="717"/>
+	<SubTexture name="Mavo0008" x="1326" y="10" width="648" height="717" frameX="0" frameY="0" frameWidth="649" frameHeight="717"/>
+	<SubTexture name="MavoScared0000" x="10" y="737" width="649" height="718"/>
+	<SubTexture name="MavoScared0001" x="10" y="737" width="649" height="718"/>
+	<SubTexture name="MavoScared0002" x="10" y="737" width="649" height="718"/>
+	<SubTexture name="MavoScared0003" x="669" y="737" width="649" height="718"/>
+	<SubTexture name="MavoScared0004" x="669" y="737" width="649" height="718"/>
+	<SubTexture name="MavoScared0005" x="669" y="737" width="649" height="718"/>
+	<SubTexture name="MavoScared0006" x="1328" y="737" width="649" height="718"/>
+	<SubTexture name="MavoScared0007" x="1328" y="737" width="649" height="718"/>
+	<SubTexture name="MavoScared0008" x="1328" y="737" width="649" height="718"/>
+	<SubTexture name="MavoWhat0000" x="10" y="1465" width="648" height="717"/>
+	<SubTexture name="MavoWhat0001" x="10" y="1465" width="648" height="717"/>
+	<SubTexture name="MavoWhat0002" x="10" y="1465" width="648" height="717"/>
+	<SubTexture name="MavoWhat0003" x="10" y="1465" width="648" height="717"/>
+	<SubTexture name="MavoWhat0004" x="10" y="1465" width="648" height="717"/>
+	<SubTexture name="MavoWhat0005" x="10" y="1465" width="648" height="717"/>
+	<SubTexture name="MavoWhat0006" x="668" y="1465" width="648" height="717"/>
+	<SubTexture name="MavoWhat0007" x="668" y="1465" width="648" height="717"/>
+	<SubTexture name="MavoWhat0008" x="668" y="1465" width="648" height="717"/>
+</TextureAtlas>

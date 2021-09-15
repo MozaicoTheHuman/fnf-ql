@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Maritza_Dialogue.png">
+	<!-- Created with Adobe Animate version 18.0.2.126 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="maritzaConfident0000" x="10" y="10" width="1668" height="1199" frameX="-2" frameY="-1" frameWidth="1670" frameHeight="1201"/>
+	<SubTexture name="maritzaConfident0001" x="10" y="10" width="1668" height="1199" frameX="-2" frameY="-1" frameWidth="1670" frameHeight="1201"/>
+	<SubTexture name="maritzaConfident0002" x="10" y="10" width="1668" height="1199" frameX="-2" frameY="-1" frameWidth="1670" frameHeight="1201"/>
+	<SubTexture name="maritzaConfident0003" x="1688" y="10" width="1668" height="1200" frameX="-1" frameY="0" frameWidth="1670" frameHeight="1201"/>
+	<SubTexture name="maritzaConfident0004" x="1688" y="10" width="1668" height="1200" frameX="-1" frameY="0" frameWidth="1670" frameHeight="1201"/>
+	<SubTexture name="maritzaConfident0005" x="1688" y="10" width="1668" height="1200" frameX="-1" frameY="0" frameWidth="1670" frameHeight="1201"/>
+	<SubTexture name="maritzaConfident0006" x="1688" y="10" width="1668" height="1200" frameX="0" frameY="-1" frameWidth="1670" frameHeight="1201"/>
+	<SubTexture name="maritzaConfident0007" x="1688" y="10" width="1668" height="1200" frameX="0" frameY="-1" frameWidth="1670" frameHeight="1201"/>
+	<SubTexture name="maritzaConfident0008" x="1688" y="10" width="1668" height="1200" frameX="0" frameY="-1" frameWidth="1670" frameHeight="1201"/>
+	<SubTexture name="maritzaFunny0000" x="10" y="1220" width="1668" height="1173"/>
+	<SubTexture name="maritzaFunny0001" x="10" y="1220" width="1668" height="1173"/>
+	<SubTexture name="maritzaFunny0002" x="10" y="1220" width="1668" height="1173"/>
+	<SubTexture name="maritzaFunny0003" x="10" y="1220" width="1668" height="1173"/>
+	<SubTexture name="maritzaFunny0004" x="10" y="1220" width="1668" height="1173"/>
+	<SubTexture name="maritzaFunny0005" x="10" y="1220" width="1668" height="1173"/>
+	<SubTexture name="maritzaFunny0006" x="10" y="1220" width="1668" height="1173"/>
+	<SubTexture name="maritzaFunny0007" x="10" y="1220" width="1668" height="1173"/>
+	<SubTexture name="maritzaFunny0008" x="10" y="1220" width="1668" height="1173"/>
+	<SubTexture name="maritzaHappy0000" x="1688" y="1220" width="1667" height="1226" frameX="-1" frameY="0" frameWidth="1668" frameHeight="1227"/>
+	<SubTexture name="maritzaHappy0001" x="1688" y="1220" width="1667" height="1226" frameX="-1" frameY="0" frameWidth="1668" frameHeight="1227"/>
+	<SubTexture name="maritzaHappy0002" x="1688" y="1220" width="1667" height="1226" frameX="-1" frameY="0" frameWidth="1668" frameHeight="1227"/>
+	<SubTexture name="maritzaHappy0003" x="10" y="2456" width="1667" height="1227" frameX="-1" frameY="0" frameWidth="1668" frameHeight="1227"/>
+	<SubTexture name="maritzaHappy0004" x="10" y="2456" width="1667" height="1227" frameX="-1" frameY="0" frameWidth="1668" frameHeight="1227"/>
+	<SubTexture name="maritzaHappy0005" x="10" y="2456" width="1667" height="1227" frameX="-1" frameY="0" frameWidth="1668" frameHeight="1227"/>
+	<SubTexture name="maritzaHappy0006" x="1687" y="2456" width="1668" height="1227"/>
+	<SubTexture name="maritzaHappy0007" x="1687" y="2456" width="1668" height="1227"/>
+	<SubTexture name="maritzaHappy0008" x="1687" y="2456" width="1668" height="1227"/>
+	<SubTexture name="maritzaNormal0000" x="10" y="3693" width="1667" height="1306" frameX="-1" frameY="-1" frameWidth="1668" frameHeight="1307"/>
+	<SubTexture name="maritzaNormal0001" x="10" y="3693" width="1667" height="1306" frameX="-1" frameY="-1" frameWidth="1668" frameHeight="1307"/>
+	<SubTexture name="maritzaNormal0002" x="10" y="3693" width="1667" height="1306" frameX="-1" frameY="-1" frameWidth="1668" frameHeight="1307"/>
+	<SubTexture name="maritzaNormal0003" x="1687" y="3693" width="1667" height="1307" frameX="-1" frameY="0" frameWidth="1668" frameHeight="1307"/>
+	<SubTexture name="maritzaNormal0004" x="1687" y="3693" width="1667" height="1307" frameX="-1" frameY="0" frameWidth="1668" frameHeight="1307"/>
+	<SubTexture name="maritzaNormal0005" x="1687" y="3693" width="1667" height="1307" frameX="-1" frameY="0" frameWidth="1668" frameHeight="1307"/>
+	<SubTexture name="maritzaNormal0006" x="10" y="5010" width="1668" height="1307"/>
+	<SubTexture name="maritzaNormal0007" x="10" y="5010" width="1668" height="1307"/>
+	<SubTexture name="maritzaNormal0008" x="10" y="5010" width="1668" height="1307"/>
+	<SubTexture name="maritzaWhat0000" x="1688" y="5010" width="1667" height="1199" frameX="-1" frameY="-2" frameWidth="1668" frameHeight="1201"/>
+	<SubTexture name="maritzaWhat0001" x="1688" y="5010" width="1667" height="1199" frameX="-1" frameY="-2" frameWidth="1668" frameHeight="1201"/>
+	<SubTexture name="maritzaWhat0002" x="1688" y="5010" width="1667" height="1199" frameX="-1" frameY="-2" frameWidth="1668" frameHeight="1201"/>
+	<SubTexture name="maritzaWhat0003" x="10" y="6327" width="1667" height="1200" frameX="-1" frameY="-1" frameWidth="1668" frameHeight="1201"/>
+	<SubTexture name="maritzaWhat0004" x="10" y="6327" width="1667" height="1200" frameX="-1" frameY="-1" frameWidth="1668" frameHeight="1201"/>
+	<SubTexture name="maritzaWhat0005" x="10" y="6327" width="1667" height="1200" frameX="-1" frameY="-1" frameWidth="1668" frameHeight="1201"/>
+	<SubTexture name="maritzaWhat0006" x="1687" y="6327" width="1668" height="1201"/>
+	<SubTexture name="maritzaWhat0007" x="1687" y="6327" width="1668" height="1201"/>
+	<SubTexture name="maritzaWhat0008" x="1687" y="6327" width="1668" height="1201"/>
+</TextureAtlas>
