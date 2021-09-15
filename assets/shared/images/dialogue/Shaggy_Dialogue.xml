@@ -20,6 +20,9 @@
 	<SubTexture name="ShaggHappy0006" x="10" y="1334" width="1171" height="1314"/>
 	<SubTexture name="ShaggHappy0007" x="10" y="1334" width="1171" height="1314"/>
 	<SubTexture name="ShaggHappy0008" x="10" y="1334" width="1171" height="1314"/>
+	<SubTexture name="ShaggHappyIdle0000" x="10" y="1334" width="1171" height="1314"/>
+	<SubTexture name="ShaggHappyIdle0001" x="10" y="1334" width="1171" height="1314"/>
+	<SubTexture name="ShaggHappyIdle0002" x="10" y="1334" width="1171" height="1314"/>
 	<SubTexture name="ShaggNormal0000" x="1191" y="1334" width="1170" height="1314" frameX="-1" frameY="0" frameWidth="1171" frameHeight="1314"/>
 	<SubTexture name="ShaggNormal0001" x="1191" y="1334" width="1170" height="1314" frameX="-1" frameY="0" frameWidth="1171" frameHeight="1314"/>
 	<SubTexture name="ShaggNormal0002" x="1191" y="1334" width="1170" height="1314" frameX="-1" frameY="0" frameWidth="1171" frameHeight="1314"/>
@@ -29,6 +32,9 @@
 	<SubTexture name="ShaggNormal0006" x="10" y="2658" width="1171" height="1314"/>
 	<SubTexture name="ShaggNormal0007" x="10" y="2658" width="1171" height="1314"/>
 	<SubTexture name="ShaggNormal0008" x="10" y="2658" width="1171" height="1314"/>
+	<SubTexture name="ShaggNormalIdle0000" x="10" y="2658" width="1171" height="1314"/>
+	<SubTexture name="ShaggNormalIdle0001" x="10" y="2658" width="1171" height="1314"/>
+	<SubTexture name="ShaggNormalIdle0002" x="10" y="2658" width="1171" height="1314"/>
 	<SubTexture name="ShaggSad0000" x="1191" y="2658" width="1170" height="1314" frameX="-1" frameY="0" frameWidth="1171" frameHeight="1314"/>
 	<SubTexture name="ShaggSad0001" x="1191" y="2658" width="1170" height="1314" frameX="-1" frameY="0" frameWidth="1171" frameHeight="1314"/>
 	<SubTexture name="ShaggSad0002" x="1191" y="2658" width="1170" height="1314" frameX="-1" frameY="0" frameWidth="1171" frameHeight="1314"/>
@@ -38,4 +44,7 @@
 	<SubTexture name="ShaggSad0006" x="10" y="3982" width="1171" height="1314"/>
 	<SubTexture name="ShaggSad0007" x="10" y="3982" width="1171" height="1314"/>
 	<SubTexture name="ShaggSad0008" x="10" y="3982" width="1171" height="1314"/>
+	<SubTexture name="ShaggSadIdle0000" x="10" y="3982" width="1171" height="1314"/>
+	<SubTexture name="ShaggSadIdle0001" x="10" y="3982" width="1171" height="1314"/>
+	<SubTexture name="ShaggSadIdle0002" x="10" y="3982" width="1171" height="1314"/>
 </TextureAtlas>
