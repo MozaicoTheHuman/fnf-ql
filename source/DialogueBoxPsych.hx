@@ -53,6 +53,13 @@ class DialogueBoxPsych extends FlxSpriteGroup
 				xOff = 0;
 				yOff = 0;
 				xSize = 1;
+			case 'gf':
+				char.frames = Paths.getSparrowAtlas('dialogue/GF_Dialogue');
+				char.animation.addByPrefix('talkIdle', 'gfIdle', 24, true); //Dialogue ended
+				char.animation.addByPrefix('talk', 'gf', 24, true); //During dialogue
+				xOff = 10;
+				yOff = 30;
+				xSize = 0.3;
 			case 'dearest':
 				char.frames = Paths.getSparrowAtlas('dialogue/Papito_Dialogue');
 				char.animation.addByPrefix('talkIdle', 'papaFeliIdle', 24, true); //Dialogue ended
@@ -222,7 +229,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 	}
 
 	var textX = 90;
-	var textY = 430;
+	var textY = 420;
 	var scrollSpeed = 4500;
 	var daText:Alphabet = null;
 
