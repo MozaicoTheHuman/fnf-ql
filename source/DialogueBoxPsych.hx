@@ -87,7 +87,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 				char.animation.addByPrefix('talk', 'ShaggNormal', 24, true); //During dialogue
 				char.animation.addByPrefix('happyIdle', 'ShaggHappyIdle', 24, true); //Dialogue ended
 				char.animation.addByPrefix('happy', 'ShaggHappy', 24, true); //During dialogue
-				char.animation.addByPrefix('funnyIdle', 'ShaggFunnyIdle', 24, true); //Dialogue ended
+				char.animation.addByPrefix('funnyIdle', 'ShaggFunny', 24, true); //Dialogue ended
 				char.animation.addByPrefix('funny', 'ShaggFunny', 24, true); //During dialogue
 
 			case 'scooby':
@@ -110,8 +110,8 @@ class DialogueBoxPsych extends FlxSpriteGroup
 				char.animation.addByPrefix('rageIdle', 'mattENPUTADOIdle', 24, true); //Dialogue ended
 				char.animation.addByPrefix('rage', 'mattENPUTADO', 24, true); //During dialogue
 				char.animation.addByPrefix('happyIdle', 'mattHappyIdle', 24, true); //Dialogue ended
-				char.animation.addByPrefix('happy', 'mattHappyNormal', 24, true); //During dialogue
-				char.animation.addByPrefix('whatIdle', 'mattWhat', 24, true); //Dialogue ended
+				char.animation.addByPrefix('happy', 'mattHappy', 24, true); //During dialogue
+				char.animation.addByPrefix('whatIdle', 'mattWhatIdle', 24, true); //Dialogue ended
 				char.animation.addByPrefix('what', 'mattWhat', 24, true); //During dialogue
 		}
 		char.animation.play('talkIdle', true);
