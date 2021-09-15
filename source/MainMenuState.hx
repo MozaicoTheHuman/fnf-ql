@@ -161,8 +161,10 @@ class MainMenuState extends MusicBeatState
 		}
 
 		bg.x = bgIniX + Math.cos(bgAng / 160) * 60;
+		bg.angle = Math.sin(0.0 + bgAng / 160) * 5;
 		bgAng ++;
 		magenta.x = bg.x;
+		magenta.angle = bg.angle;
 
 		var lerpVal:Float = CoolUtil.boundTo(elapsed * 5.6, 0, 1);
 		camFollowPos.setPosition(FlxMath.lerp(camFollowPos.x, camFollow.x, lerpVal), FlxMath.lerp(camFollowPos.y, camFollow.y, lerpVal));
