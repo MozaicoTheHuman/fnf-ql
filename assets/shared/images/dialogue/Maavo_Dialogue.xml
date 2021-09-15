@@ -11,6 +11,9 @@
 	<SubTexture name="Mavo0006" x="1326" y="10" width="648" height="717" frameX="0" frameY="0" frameWidth="649" frameHeight="717"/>
 	<SubTexture name="Mavo0007" x="1326" y="10" width="648" height="717" frameX="0" frameY="0" frameWidth="649" frameHeight="717"/>
 	<SubTexture name="Mavo0008" x="1326" y="10" width="648" height="717" frameX="0" frameY="0" frameWidth="649" frameHeight="717"/>
+	<SubTexture name="MavoIdle0000" x="1326" y="10" width="648" height="717" frameX="0" frameY="0" frameWidth="649" frameHeight="717"/>
+	<SubTexture name="MavoIdle0001" x="1326" y="10" width="648" height="717" frameX="0" frameY="0" frameWidth="649" frameHeight="717"/>
+	<SubTexture name="MavoIdle0002" x="1326" y="10" width="648" height="717" frameX="0" frameY="0" frameWidth="649" frameHeight="717"/>
 	<SubTexture name="MavoScared0000" x="10" y="737" width="649" height="718"/>
 	<SubTexture name="MavoScared0001" x="10" y="737" width="649" height="718"/>
 	<SubTexture name="MavoScared0002" x="10" y="737" width="649" height="718"/>
@@ -20,6 +23,9 @@
 	<SubTexture name="MavoScared0006" x="1328" y="737" width="649" height="718"/>
 	<SubTexture name="MavoScared0007" x="1328" y="737" width="649" height="718"/>
 	<SubTexture name="MavoScared0008" x="1328" y="737" width="649" height="718"/>
+	<SubTexture name="MavoScaredIdle0000" x="1328" y="737" width="649" height="718"/>
+	<SubTexture name="MavoScaredIdle0001" x="1328" y="737" width="649" height="718"/>
+	<SubTexture name="MavoScaredIdle0002" x="1328" y="737" width="649" height="718"/>
 	<SubTexture name="MavoWhat0000" x="10" y="1465" width="648" height="717"/>
 	<SubTexture name="MavoWhat0001" x="10" y="1465" width="648" height="717"/>
 	<SubTexture name="MavoWhat0002" x="10" y="1465" width="648" height="717"/>
@@ -29,4 +35,7 @@
 	<SubTexture name="MavoWhat0006" x="668" y="1465" width="648" height="717"/>
 	<SubTexture name="MavoWhat0007" x="668" y="1465" width="648" height="717"/>
 	<SubTexture name="MavoWhat0008" x="668" y="1465" width="648" height="717"/>
+	<SubTexture name="MavoWhatIdle0000" x="668" y="1465" width="648" height="717"/>
+	<SubTexture name="MavoWhatIdle0001" x="668" y="1465" width="648" height="717"/>
+	<SubTexture name="MavoWhatIdle0002" x="668" y="1465" width="648" height="717"/>
 </TextureAtlas>
