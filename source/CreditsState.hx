@@ -110,7 +110,7 @@ class CreditsState extends MusicBeatState
 
 				icon.sprTracker = optionText;
 
-				if (icnName == 'wach')
+				if (icnName == 'evidal')
 				{
 					smol = false;
 				}

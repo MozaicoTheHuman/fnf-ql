@@ -148,6 +148,9 @@ class DialogueBoxPsych extends FlxSpriteGroup
 
 	var voiceInd = 0;
 	var voiceFolder = '1maritza';
+	var cutFolder = 'cutscene_1';
+
+	var cutSprite:FlxSprite;
 	public function new(?dialogueList:Array<String>, song:String)
 	{
 		super();
@@ -156,13 +159,19 @@ class DialogueBoxPsych extends FlxSpriteGroup
 			FlxG.sound.playMusic(Paths.music(song), 0);
 			FlxG.sound.music.fadeIn(2, 0, 1);
 		}
-		voiceFolder = CoolUtil.coolTextFile(Paths.txt(PlayState.SONG.song.toLowerCase() + '/voces'))[0];
+		var prop = CoolUtil.coolTextFile(Paths.txt(PlayState.SONG.song.toLowerCase() + '/prop'));
+		voiceFolder = prop[0];
+		cutFolder = prop[1];
 
 		bgFade = new FlxSprite(-500, -500).makeGraphic(FlxG.width * 2, FlxG.height * 2, FlxColor.WHITE);
 		bgFade.scrollFactor.set();
 		bgFade.visible = true;
 		bgFade.alpha = 0;
-		add(bgFade);
+		//add(bgFade);
+		cutSprite = new FlxSprite(0, 0).makeGraphic(100, 100);//.loadGraphic(Paths.image('cutscenes/' + cutFolder + '/' + cutImages[0]));
+		cutSprite.scrollFactor.set();
+		cutSprite.alpha = 0;
+		add(cutSprite);
 
 		this.dialogueList = dialogueList;
 		spawnCharacters(dialogueList[0].split(" "));
@@ -343,6 +352,15 @@ class DialogueBoxPsych extends FlxSpriteGroup
 					bgFade = null;
 				}
 			}
+			if (cutSprite != null)
+			{
+				cutSprite.alpha -= 0.7 * elapsed;
+				if (cutSprite.alpha <= 0)
+				{
+					remove(cutSprite);
+					cutSprite = null;
+				}
+			}
 
 			for (i in 0...arrayCharacters.length) {
 				var leChar:FlxSprite = arrayCharacters[i];
@@ -410,6 +428,13 @@ class DialogueBoxPsych extends FlxSpriteGroup
 		}
 		daText = new Alphabet(textX, textY, textToType, false, true, speed, 0.7);
 		add(daText);
+
+		cutSprite.loadGraphic(Paths.image('cutscenes/' + cutFolder + '/' + splitName[6]));
+		cutSprite.setGraphicSize(FlxG.width);
+		cutSprite.updateHitbox();
+		cutSprite.screenCenter(X);
+		cutSprite.screenCenter(Y);
+		cutSprite.alpha = 1;
 
 		var char:FlxSprite = arrayCharacters[character];
 		if(char != null) {
