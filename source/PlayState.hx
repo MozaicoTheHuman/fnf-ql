@@ -329,7 +329,7 @@ class PlayState extends MusicBeatState
 				bg.updateHitbox();
 				add(bg);
 
-			case 'asereje':
+			case 'asereje' | 'golazo':
 				curStage = 'unimarc';
 
 				defaultCamZoom = 0.65;
