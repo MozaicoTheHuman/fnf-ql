@@ -750,7 +750,7 @@ class PlayState extends MusicBeatState
 				case 'senpai' | 'roses' | 'thorns':
 					if(daSong == 'roses') FlxG.sound.play(Paths.sound('ANGRY'));
 					schoolIntro(doof);
-				case 'consentida':
+				case 'consentida' | 'golazo' | 'matt-mujeres-cerveza':
 					dialogueIntro(dialogue);
 				default:
 					startCountdown();

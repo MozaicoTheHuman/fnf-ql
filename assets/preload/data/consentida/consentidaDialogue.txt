@@ -10,6 +10,6 @@ bf:right dearest:left ivette:left maavo:left maritza:left gf:center
 :3:what:0.05:0:Huh? ¿Que haces aqui enano?
 :0:talk:0.05:0:Beep...
 :4:happy:0.05:0:¡HOLA CHIQUITIN! ¿Te acuerdas de mi?
-:4:funny:0.05:0:...???
+:0:talk:0.05:0:...???
 :4:confident:0.05:0:Viniste por revancha? muy mal,\nahora estoy en mi elemento.
 :5:talk:0.05:0:Esperen ¿no saben donde esta el carbon?

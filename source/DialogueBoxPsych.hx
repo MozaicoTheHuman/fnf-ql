@@ -156,7 +156,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 			FlxG.sound.playMusic(Paths.music(song), 0);
 			FlxG.sound.music.fadeIn(2, 0, 1);
 		}
-		var voiceFolder = CoolUtil.coolTextFile(Paths.txt(PlayState.SONG.song.toLowerCase() + '/voces'));
+		voiceFolder = CoolUtil.coolTextFile(Paths.txt(PlayState.SONG.song.toLowerCase() + '/voces'))[0];
 
 		bgFade = new FlxSprite(-500, -500).makeGraphic(FlxG.width * 2, FlxG.height * 2, FlxColor.WHITE);
 		bgFade.scrollFactor.set();
