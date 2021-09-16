@@ -34,7 +34,7 @@ class CreditsState extends MusicBeatState
 		['Joan Atlas', 'tono', 'Canción de Matt', 'https://twitter.com/joan_atlas', 0xFF395FD2],
 		['Pointy', 'pointy', 'Voz de Matt, Artista, Charter', 'https://twitter.com/fnfAC_D', 0xFF395FD2],
 		['Shyrell', 'shy', 'Voz de Girlfriend, Artista', 'https://twitter.com/shy_squishy', 0xFF395FD2],
-		['GenoX', 'genox', 'Vocales de Consentida, Canción Asereje', 'https://twitter.com/GenoXACT2', 0xFF395FD2],
+		['GenoX', 'genox', 'Vocales de Consentida, Canción Asereje, Código', 'https://twitter.com/GenoXACT2', 0xFF395FD2],
 		['Surfe', 'surfe', 'Fondo del menú', 'https://twitter.com/SurfeBit', 0xFF395FD2],
 		['Ebola', 'ebola', 'Es bakan', 'https://twitter.com/EbolaHorny', 0xFF395FD2],
 		['Miki', 'miki', 'Voz de Ivette', 'https://cdn.discordapp.com/attachments/885208632533348433/887917996977299476/miki.gif', 0xFF395FD2],
