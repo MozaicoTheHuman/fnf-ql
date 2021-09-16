@@ -1,0 +1,155 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-2,
+				-1
+			],
+			"anim": "danceLeft",
+			"fps": 24,
+			"name": "shaggy_idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				-1
+			],
+			"anim": "danceRight",
+			"fps": 24,
+			"name": "shaggy_idle2",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-19,
+				24
+			],
+			"anim": "hey",
+			"fps": 24,
+			"name": "shaggy_powerup",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				160,
+				-116
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "shaggy_left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-30,
+				-44
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "shaggy_right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-20,
+				-183
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "shaggy_down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-20,
+				26
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "shaggy_up",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-16,
+				0
+			],
+			"anim": "idle-alt",
+			"fps": 24,
+			"name": "shaggy_super_idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				200,
+				-120
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"loop": false,
+			"name": "shaggy_sleft"
+		},
+		{
+			"offsets": [
+				-7,
+				-44
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"loop": false,
+			"name": "shaggy_sright"
+		},
+		{
+			"offsets": [
+				-35,
+				-185
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"loop": false,
+			"name": "shaggy_sdown"
+		},
+		{
+			"offsets": [
+				-32,
+				22
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP-alt",
+			"loop": false,
+			"name": "shaggy_sup"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/shag",
+	"position": [
+		80,
+		0
+	],
+	"healthicon": "shaggy",
+	"flip_x": false,
+	"healthbar_colors": [
+		51,
+		114,
+		74
+	],
+	"camera_position": [
+		-180,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

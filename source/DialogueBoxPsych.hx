@@ -1,5 +1,6 @@
 package;
 
+import flixel.system.FlxSound;
 import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.addons.text.FlxTypeText;
@@ -145,7 +146,8 @@ class DialogueBoxPsych extends FlxSpriteGroup
 	}
 
 
-
+	var voiceInd = 0;
+	var voiceFolder = '1maritza';
 	public function new(?dialogueList:Array<String>, song:String)
 	{
 		super();
@@ -154,7 +156,8 @@ class DialogueBoxPsych extends FlxSpriteGroup
 			FlxG.sound.playMusic(Paths.music(song), 0);
 			FlxG.sound.music.fadeIn(2, 0, 1);
 		}
-		
+		var voiceFolder = CoolUtil.coolTextFile(Paths.txt(PlayState.SONG.song.toLowerCase() + '/voces'));
+
 		bgFade = new FlxSprite(-500, -500).makeGraphic(FlxG.width * 2, FlxG.height * 2, FlxColor.WHITE);
 		bgFade.scrollFactor.set();
 		bgFade.visible = true;
@@ -366,11 +369,14 @@ class DialogueBoxPsych extends FlxSpriteGroup
 
 	var lastCharacter:Int = -1;
 	var lastBoxType:String = '';
+	var voicePlaying:FlxSound = new FlxSound().loadEmbedded(Paths.sound('dialogos/1maritza/1'));
 	function startNextDialog():Void
 	{
 		var splitName:Array<String> = dialogueList[currentText].split(":");
 		var character:Int = Std.parseInt(splitName[1]);
 		var speed:Float = Std.parseFloat(splitName[3]);
+		var vc = currentText + 0;
+		var vcSound:String = 'dialogos/' + voiceFolder + '/' + vc;
 
 		var animName:String = splitName[4];
 		var boxType:String = textBoxTypes[0];
@@ -414,6 +420,10 @@ class DialogueBoxPsych extends FlxSpriteGroup
 			char.animation.curAnim.frameRate = rate;
 		}
 		currentText++;
+
+		voicePlaying.stop();
+		voicePlaying.loadEmbedded(Paths.sound(vcSound));
+		voicePlaying.play();
 
 		if(nextDialogueThing != null) {
 			nextDialogueThing();
