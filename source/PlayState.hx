@@ -178,6 +178,7 @@ class PlayState extends MusicBeatState
 	var upperBoppers:BGSprite;
 	var bottomBoppers:BGSprite;
 	var leftBoppers:BGSprite;
+	var maavoBopper:BGSprite;
 	var santa:BGSprite;
 	var heyTimer:Float;
 
@@ -282,7 +283,7 @@ class PlayState extends MusicBeatState
 
 		switch (SONG.song.toLowerCase())
 		{
-			case 'consentida' | 'asereje':
+			case 'consentida':
 				curStage = 'unimarc';
 
 				defaultCamZoom = 0.65;
@@ -296,6 +297,11 @@ class PlayState extends MusicBeatState
 				upperBoppers.setGraphicSize(Std.int(upperBoppers.width * 0.85));
 				upperBoppers.updateHitbox();
 				add(upperBoppers);
+
+				maavoBopper = new BGSprite('unimarc/MaavoIvette', -318, -58, 0.95, 0.95, ['MAAVETTE']);
+				maavoBopper.setGraphicSize(Std.int(maavoBopper.width * 0.69));
+				maavoBopper.updateHitbox();
+				add(maavoBopper);
 
 				leftBoppers = new BGSprite('unimarc/sulayrecameo', 45, 290, 0.95, 0.95, ['sulayrebopper']);
 				leftBoppers.setGraphicSize(Std.int(upperBoppers.width * 0.425));
@@ -322,6 +328,53 @@ class PlayState extends MusicBeatState
 				bg.setGraphicSize(Std.int(bg.width * 1.4));
 				bg.updateHitbox();
 				add(bg);
+
+			case 'asereje':
+				curStage = 'unimarc';
+
+				defaultCamZoom = 0.65;
+
+				var bg:BGSprite = new BGSprite('unimarc/Back', -1540, -950, 0.95, 0.95);
+				bg.setGraphicSize(Std.int(bg.width * 1.55));
+				bg.updateHitbox();
+				add(bg);
+
+				upperBoppers = new BGSprite('unimarc/Shy__Pico_HUASOS_assets', 1250, 350, 0.95, 0.95, ['Both_idles']);
+				upperBoppers.setGraphicSize(Std.int(upperBoppers.width * 0.85));
+				upperBoppers.updateHitbox();
+				add(upperBoppers);
+
+				maavoBopper = new BGSprite('unimarc/MaavoMaritzaIvette', -318, -58, 0.95, 0.95, ['familiafelis']);
+				maavoBopper.setGraphicSize(Std.int(maavoBopper.width * 0.69));
+				maavoBopper.updateHitbox();
+				add(maavoBopper);
+
+				leftBoppers = new BGSprite('unimarc/sulayrecameo', 45, 290, 0.95, 0.95, ['sulayrebopper']);
+				leftBoppers.setGraphicSize(Std.int(upperBoppers.width * 0.425));
+				leftBoppers.updateHitbox();
+				add(leftBoppers);
+
+				bottomBoppers = new BGSprite('unimarc/genteFront', -565, -410, 1.1, 1.1, ['BopCrowdFront']);
+				bottomBoppers.setGraphicSize(Std.int(bottomBoppers.width * 1.15));
+				bottomBoppers.updateHitbox();
+
+			case 'chocona':
+				curStage = 'playground';
+
+				defaultCamZoom = 0.65;
+
+				var circle:BGSprite = new BGSprite('secrettoplol/circle', -550, -650, 0.85, 0.85);
+				circle.setGraphicSize(Std.int(circle.width * 3.6));
+				circle.updateHitbox();
+				circle.antialiasing = true;
+				add(circle);
+				FlxTween.angle(circle,circle.angle,360,20,{type:LOOPING});
+
+				var bg:BGSprite = new BGSprite('secrettoplol/Ground', -555, -400, 0.95, 0.95);
+				bg.setGraphicSize(Std.int(bg.width * 1.4));
+				bg.updateHitbox();
+				add(bg);
+
 			default:
 				defaultCamZoom = 0.9;
 				curStage = 'stage';
@@ -3314,6 +3367,7 @@ class PlayState extends MusicBeatState
 				upperBoppers.dance(true);
 				bottomBoppers.dance(true);
 				leftBoppers.dance(true);
+				maavoBopper.dance(true);
 
 			case 'limo':
 				if(!ClientPrefs.lowQuality) {
