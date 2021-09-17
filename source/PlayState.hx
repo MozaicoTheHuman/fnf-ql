@@ -179,6 +179,8 @@ class PlayState extends MusicBeatState
 	var bottomBoppers:BGSprite;
 	var leftBoppers:BGSprite;
 	var maavoBopper:BGSprite;
+	var derkiBopper:BGSprite;
+	var monadeltidalBoppers:BGSprite;
 	var santa:BGSprite;
 	var heyTimer:Float;
 
@@ -303,10 +305,25 @@ class PlayState extends MusicBeatState
 				maavoBopper.updateHitbox();
 				add(maavoBopper);
 
+				derkiBopper = new BGSprite('unimarc/holasoygerman', -46584932, 143243250, 0.95, 0.95, ['darkuro instance 1']);
+				derkiBopper.setGraphicSize(Std.int(derkiBopper.width * 0.80));
+				derkiBopper.updateHitbox();
+				add(derkiBopper);
+
 				leftBoppers = new BGSprite('unimarc/sulayrecameo', 45, 290, 0.95, 0.95, ['sulayrebopper']);
 				leftBoppers.setGraphicSize(Std.int(upperBoppers.width * 0.425));
 				leftBoppers.updateHitbox();
 				add(leftBoppers);
+
+				monadeltidalBoppers = new BGSprite('unimarc/mgrchilenita', -174325, 494324320, 0.95, 0.95, ['meguruchilenita instance 1']);
+				monadeltidalBoppers.setGraphicSize(Std.int(upperBoppers.width * 0.425));
+				monadeltidalBoppers.updateHitbox();
+				add(monadeltidalBoppers);
+
+				var bg:BGSprite = new BGSprite('unimarc/xdddd', -1540, -950, 0.95, 0.95);
+				bg.setGraphicSize(Std.int(bg.width * 1.55));
+				bg.updateHitbox();
+				add(bg);
 
 				bottomBoppers = new BGSprite('unimarc/genteFront', -565, -410, 1.1, 1.1, ['BopCrowdFront']);
 				bottomBoppers.setGraphicSize(Std.int(bottomBoppers.width * 1.15));
@@ -344,15 +361,30 @@ class PlayState extends MusicBeatState
 				upperBoppers.updateHitbox();
 				add(upperBoppers);
 
+				derkiBopper = new BGSprite('unimarc/holasoygerman', -465, 150, 0.95, 0.95, ['darkuro instance 1']);
+				derkiBopper.setGraphicSize(Std.int(derkiBopper.width * 0.80));
+				derkiBopper.updateHitbox();
+				add(derkiBopper);
+
 				maavoBopper = new BGSprite('unimarc/MaavoMaritzaIvette', -318, -58, 0.95, 0.95, ['familiafelis']);
 				maavoBopper.setGraphicSize(Std.int(maavoBopper.width * 0.69));
 				maavoBopper.updateHitbox();
 				add(maavoBopper);
 
+				monadeltidalBoppers = new BGSprite('unimarc/mgrchilenita', -175, 490, 0.95, 0.95, ['meguruchilenita instance 1']);
+				monadeltidalBoppers.setGraphicSize(Std.int(upperBoppers.width * 0.425));
+				monadeltidalBoppers.updateHitbox();
+				add(monadeltidalBoppers);
+
 				leftBoppers = new BGSprite('unimarc/sulayrecameo', 45, 290, 0.95, 0.95, ['sulayrebopper']);
 				leftBoppers.setGraphicSize(Std.int(upperBoppers.width * 0.425));
 				leftBoppers.updateHitbox();
 				add(leftBoppers);
+
+				var bg:BGSprite = new BGSprite('unimarc/xdddd', -1540, -950, 0.95, 0.95);
+				bg.setGraphicSize(Std.int(bg.width * 1.55));
+				bg.updateHitbox();
+				add(bg);
 
 				bottomBoppers = new BGSprite('unimarc/genteFront', -565, -410, 1.1, 1.1, ['BopCrowdFront']);
 				bottomBoppers.setGraphicSize(Std.int(bottomBoppers.width * 1.15));
@@ -3368,6 +3400,8 @@ class PlayState extends MusicBeatState
 				bottomBoppers.dance(true);
 				leftBoppers.dance(true);
 				maavoBopper.dance(true);
+				derkiBopper.dance(true);
+				monadeltidalBoppers.dance(true);
 
 			case 'limo':
 				if(!ClientPrefs.lowQuality) {
