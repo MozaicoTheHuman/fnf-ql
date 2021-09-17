@@ -47,7 +47,7 @@ class CreditsState extends MusicBeatState
 		['SODAFIZZIN', 'sodafizzin', 'Outline del diálogo', 'https://twitter.com/SODAFLZZIN', 0xFF395FD2],
 		['Expandongus', 'expandongus', 'Dibujo del matt gritando que se te queman lo arroces', 'https://twitter.com/expanded_dongus', 0xFF395FD2],
 		['Wach', 'wach', 'Voz de Shaggy, Escritor de diálogos', 'https://media.discordapp.net/attachments/853518667270979606/883515823791149066/image0.gif', 0xFF395FD2],
-		['evidal', 'evdial', 'Sprites originales de Miku', 'https://twitter.com/evydial', 0xFF39D25F],
+		['evdial', 'evdial', 'Sprites originales de Miku', 'https://twitter.com/evydial', 0xFF39D25F],
 		[''],
 		['Psíquico Motor Equipo'],
 		['Shadow Mario',		'shadowmario',		'Programador principal de Psych Engine',					'https://twitter.com/Shadow_Mario_',	0xFFFFDD33],
