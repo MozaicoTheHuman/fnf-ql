@@ -1,136 +1,136 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				-2,
 				-1
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "danceLeft",
-			"indices": [],
-			"name": "shaggy_idle"
+			"fps": 24,
+			"name": "shaggy_idle",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				-1
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "danceRight",
-			"indices": [],
-			"name": "shaggy_idle2"
+			"fps": 24,
+			"name": "shaggy_idle2",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-19,
 				24
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "hey",
-			"indices": [],
-			"name": "shaggy_powerup"
+			"fps": 24,
+			"name": "shaggy_powerup",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				160,
 				-116
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "shaggy_left"
+			"fps": 24,
+			"name": "shaggy_left",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-30,
 				-44
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "shaggy_right"
+			"fps": 24,
+			"name": "shaggy_right",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-20,
 				-183
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "shaggy_down"
+			"fps": 24,
+			"name": "shaggy_down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-20,
 				26
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUP",
-			"indices": [],
-			"name": "shaggy_up"
+			"fps": 24,
+			"name": "shaggy_up",
+			"indices": []
 		},
 		{
+			"loop": true,
 			"offsets": [
 				-16,
 				0
 			],
-			"loop": true,
-			"fps": 24,
 			"anim": "idle-alt",
-			"indices": [],
-			"name": "shaggy_super_idle"
+			"fps": 24,
+			"name": "shaggy_super_idle",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
 				200,
 				-120
 			],
-			"anim": "singLEFT-alt",
+			"loop": false,
 			"fps": 24,
-			"name": "shaggy_sleft",
-			"indices": []
+			"anim": "singLEFT-alt",
+			"indices": [],
+			"name": "shaggy_sleft"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-7,
 				-44
 			],
-			"anim": "singRIGHT-alt",
+			"loop": false,
 			"fps": 24,
-			"name": "shaggy_sright",
-			"indices": []
+			"anim": "singRIGHT-alt",
+			"indices": [],
+			"name": "shaggy_sright"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-35,
 				-185
 			],
-			"anim": "singDOWN-alt",
+			"loop": false,
 			"fps": 24,
-			"name": "shaggy_sdown",
-			"indices": []
+			"anim": "singDOWN-alt",
+			"indices": [],
+			"name": "shaggy_sdown"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-32,
 				22
 			],
-			"anim": "singUP-alt",
+			"indices": [],
 			"fps": 24,
-			"name": "shaggy_sup",
-			"indices": []
+			"anim": "singUP-alt",
+			"loop": false,
+			"name": "shaggy_xd"
 		}
 	],
 	"no_antialiasing": false,
