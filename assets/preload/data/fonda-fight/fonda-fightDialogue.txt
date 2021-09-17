@@ -8,4 +8,4 @@ bf:right shaggy:left scooby:left matt:left maavo:left gf:center
 :0:talk:0.05:0:Beep Boop
 :5:talk:0.05:0:Por la cresta ¿no podemos pasar una semana,\nUNA sin que te enfrentes a estos weones?\nMás encima son siempre 3 canciones y todas\nlas vecesles partes la raja porfavor solo\nqueremos carbon por la rechucha.
 :4:scared:0.05:0:...
-:3:talk:0.05:0:¿Sabes? tambien necesito carbon, acabemos\ncon esto rápido.
+:3:talk:0.05:0:¿Sabes? tambien necesito carbon, acabemos\ncon esto rapido.
