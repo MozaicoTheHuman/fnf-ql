@@ -1,15 +1,16 @@
 bf:right dearest:left ivette:left maavo:left maritza:left gf:center
-:1:angry:0.05:0:Ya par de weoncitos venga pa aca.
-:0:talk:0.05:0:Bap bop.
-:1:talk:0.05:0:Dale po tengo hambre ponte vio\ny anda a traer carbon del unimarc\npal asaito po weon.
-:5:talk:0.05:0:¿Donde estara el carbon?
-:0:talk:0.05:0:Bap!
-:5:talk:0.05:0:Por la rechucha que es inutil mi polo-
-:0:talk:0.05:0:Bobepibep bapara bupbiap!
-:2:angry:0.05:0:¡A VER CHUCHETUMARE! ¿Como me veni\na decir eso?
-:3:what:0.05:0:Huh? ¿Que haces aqui enano?
-:0:talk:0.05:0:Beep...
-:4:happy:0.05:0:¡HOLA CHIQUITIN! ¿Te acuerdas de mi?
-:4:funny:0.05:0:...???
-:4:confident:0.05:0:Viniste por revancha? muy mal,\nahora estoy en mi elemento.
-:5:talk:0.05:0:Esperen ¿no saben donde esta el carbon?
+:1:angry:0.05:0:Ya par de weoncitos venga pa aca.:0
+:0:talk:0.05:0:Bap bop.:0
+:1:talk:0.05:0:Dale po tengo hambre ponte vio\ny anda a traer carbon del unimarc\npal asaito po weon.:0
+:0:talk:0.05:0:Bap.:1
+:5:talk:0.05:0:¿Donde estara el carbon?:2
+:0:talk:0.05:0:Bap!:3
+:5:talk:0.05:0:Por la rechucha que es inutil mi polo-:3
+:0:talk:0.05:0:Bobepibep bapara bupbiap!:4
+:2:angry:0.05:0:¡A VER CHUCHETUMARE! ¿Como me veni\na decir eso?:5
+:3:what:0.05:0:Huh? ¿Que haces aqui enano?:7
+:0:talk:0.05:0:Beep...:7
+:4:happy:0.05:0:¡HOLA CHIQUITIN! ¿Te acuerdas de mi?:8
+:0:talk:0.05:0:...???:9
+:4:happy:0.05:0:Viniste por revancha? muy mal,\nahora estoy en mi elemento.:10
+:5:talk:0.05:0:Esperen ¿no saben donde esta el carbon?:10
