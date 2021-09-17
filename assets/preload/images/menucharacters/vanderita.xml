@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="vanderita.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="chilena0000" x="10" y="10" width="777" height="588"/>
+	<SubTexture name="chilena0001" x="10" y="10" width="777" height="588"/>
+	<SubTexture name="chilena0002" x="10" y="10" width="777" height="588"/>
+	<SubTexture name="chilena0003" x="10" y="10" width="777" height="588"/>
+	<SubTexture name="chilena0004" x="807" y="10" width="777" height="588"/>
+	<SubTexture name="chilena0005" x="807" y="10" width="777" height="588"/>
+	<SubTexture name="chilena0006" x="807" y="10" width="777" height="588"/>
+	<SubTexture name="chilena0007" x="807" y="10" width="777" height="588"/>
+	<SubTexture name="chilena0008" x="1604" y="10" width="777" height="588"/>
+	<SubTexture name="chilena0009" x="1604" y="10" width="777" height="588"/>
+	<SubTexture name="chilena0010" x="1604" y="10" width="777" height="588"/>
+	<SubTexture name="chilena0011" x="1604" y="10" width="777" height="588"/>
+	<SubTexture name="chilena0012" x="2401" y="10" width="777" height="588"/>
+	<SubTexture name="chilena0013" x="2401" y="10" width="777" height="588"/>
+	<SubTexture name="chilena0014" x="2401" y="10" width="777" height="588"/>
+	<SubTexture name="chilena0015" x="2401" y="10" width="777" height="588"/>
+	<SubTexture name="chilena0016" x="3198" y="10" width="777" height="588"/>
+	<SubTexture name="chilena0017" x="3198" y="10" width="777" height="588"/>
+	<SubTexture name="chilena0018" x="3198" y="10" width="777" height="588"/>
+	<SubTexture name="chilena0019" x="3198" y="10" width="777" height="588"/>
+	<SubTexture name="chilena0020" x="10" y="618" width="777" height="588"/>
+	<SubTexture name="chilena0021" x="10" y="618" width="777" height="588"/>
+	<SubTexture name="chilena0022" x="10" y="618" width="777" height="588"/>
+	<SubTexture name="chilena0023" x="10" y="618" width="777" height="588"/>
+	<SubTexture name="chilena0024" x="807" y="618" width="777" height="588"/>
+	<SubTexture name="chilena0025" x="807" y="618" width="777" height="588"/>
+	<SubTexture name="chilena0026" x="807" y="618" width="777" height="588"/>
+	<SubTexture name="chilena0027" x="807" y="618" width="777" height="588"/>
+</TextureAtlas>

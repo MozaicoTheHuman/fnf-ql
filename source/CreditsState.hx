@@ -40,7 +40,6 @@ class CreditsState extends MusicBeatState
 		['Tidal', 'tidal', 'Artista de sprites de Shaggy, Ayuda con el arte', 'https://twitter.com/tiidall', 0xFF395FD2],
 		['Neits', 'netis', 'Portraits de los diálogos', 'https://twitter.com/Nebits_art', 0xFF395FD2],
 		['Miki', 'miki', 'Voz de Ivette', 'https://cdn.discordapp.com/attachments/885208632533348433/887917996977299476/miki.gif', 0xFF395FD2],
-		['Anonima', 'anon', 'Voz de Maritza', 'https://cdn.discordapp.com/emojis/871518994476195840.gif?v=1', 0xFF395FD2],
 		['Maty', 'maty', 'Ayuda con sprites de Matt', 'https://twitter.com/SoM4ty', 0xFF395FD2],
 		['Wach', 'wach', 'Voz de Shaggy, Escritor de diálogos', 'https://media.discordapp.net/attachments/853518667270979606/883515823791149066/image0.gif', 0xFF395FD2],
 		['JvrZV', 'pat', 'Ayuda con el arte', 'https://twitter.com/zavidraws', 0xFF395FD2],
