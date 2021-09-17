@@ -329,7 +329,7 @@ class PlayState extends MusicBeatState
 				bg.updateHitbox();
 				add(bg);
 
-			case 'asereje' | 'golazo':
+			case 'asereje' | 'golazo' | 'fonda-fight':
 				curStage = 'unimarc';
 
 				defaultCamZoom = 0.65;
@@ -750,7 +750,7 @@ class PlayState extends MusicBeatState
 				case 'senpai' | 'roses' | 'thorns':
 					if(daSong == 'roses') FlxG.sound.play(Paths.sound('ANGRY'));
 					schoolIntro(doof);
-				case 'consentida' | 'golazo' | 'matt-mujeres-cerveza':
+				case 'consentida' | 'golazo' | 'fonda-fight':
 					dialogueIntro(dialogue);
 				default:
 					startCountdown();
