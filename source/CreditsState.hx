@@ -27,9 +27,8 @@ class CreditsState extends MusicBeatState
 		['Equipo Chilensis'],
 		['Sulayre', 'sulayre', 'Director, Código, Artista', 'https://twitter.com/Sulayre', 0xFF395FD2],
 		['Beezy', 'beezy', 'Artista', 'https://www.twitter.com/BeezyLoove', 0xFF395FD2],
-		['srPerez', 'perez', 'Código', 'https://twitter.com/NewSrPerez', 0xFF395FD2],
+		['srPerez', 'perez', 'Código, Ayuda con la música', 'https://twitter.com/NewSrPerez', 0xFF395FD2],
 		['FlameMind', 'flame', 'Reggaeton de Shaggy', 'https://twitter.com/flamemind10', 0xFF39D25F],
-		['JvrZV', 'pat', 'Ayuda con el arte', 'https://twitter.com/zavidraws', 0xFF395FD2],
 		['Mozaico', 'mozaico', 'Artista, Voz de Maavo, Código', 'https://www.youtube.com/c/MaavoTheHuman/', 0xFF395FD2],
 		['Joan Atlas', 'tono', 'Canción de Matt', 'https://twitter.com/joan_atlas', 0xFF395FD2],
 		['Pointy', 'pointy', 'Voz de Matt, Artista, Charter', 'https://twitter.com/fnfAC_D', 0xFF395FD2],
@@ -37,23 +36,26 @@ class CreditsState extends MusicBeatState
 		['GenoX', 'genox', 'Vocales de Consentida, Canción Asereje, Código', 'https://twitter.com/GenoXACT2', 0xFF395FD2],
 		['Surfe', 'surfe', 'Fondo del menú', 'https://twitter.com/SurfeBit', 0xFF395FD2],
 		['Ebola', 'ebola', 'Iconos de creditos', 'https://twitter.com/EbolaHorny', 0xFF395FD2],
-		['Miki', 'miki', 'Voz de Ivette', 'https://cdn.discordapp.com/attachments/885208632533348433/887917996977299476/miki.gif', 0xFF395FD2],
-		['Anónima', 'anon', 'Voz de Maritza', 'https://cdn.discordapp.com/emojis/871518994476195840.gif?v=1', 0xFF395FD2],
-		['Maty', 'maty', 'Ayuda con sprites de Matt', 'https://twitter.com/SoM4ty', 0xFF395FD2],
 		['Juanca Draws', 'juanca', 'Cutscenes', 'https://twitter.com/JuancaDraws', 0xFF395FD2],
-		['Neits', 'netis', 'Portraits de los diálogos', 'https://twitter.com/Nebits_art', 0xFF395FD2],
 		['Tidal', 'tidal', 'Artista de sprites de Shaggy, Ayuda con el arte', 'https://twitter.com/tiidall', 0xFF395FD2],
+		['Neits', 'netis', 'Portraits de los diálogos', 'https://twitter.com/Nebits_art', 0xFF395FD2],
+		['Miki', 'miki', 'Voz de Ivette', 'https://cdn.discordapp.com/attachments/885208632533348433/887917996977299476/miki.gif', 0xFF395FD2],
+		['Anonima', 'anon', 'Voz de Maritza', 'https://cdn.discordapp.com/emojis/871518994476195840.gif?v=1', 0xFF395FD2],
+		['Maty', 'maty', 'Ayuda con sprites de Matt', 'https://twitter.com/SoM4ty', 0xFF395FD2],
+		['Wach', 'wach', 'Voz de Shaggy, Escritor de diálogos', 'https://media.discordapp.net/attachments/853518667270979606/883515823791149066/image0.gif', 0xFF395FD2],
+		['JvrZV', 'pat', 'Ayuda con el arte', 'https://twitter.com/zavidraws', 0xFF395FD2],
 		['Bastiano', 'bastiano', 'Ayuda con el escenario', 'https://twitter.com/AliveBastiano', 0xFF395FD2],
 		['SODAFIZZIN', 'sodafizzin', 'Outline del diálogo', 'https://twitter.com/SODAFLZZIN', 0xFF395FD2],
 		['Expandongus', 'expandongus', 'Dibujo del matt gritando que se te queman lo arroces', 'https://twitter.com/expanded_dongus', 0xFF395FD2],
-		['Wach', 'wach', 'Voz de Shaggy, Escritor de diálogos', 'https://media.discordapp.net/attachments/853518667270979606/883515823791149066/image0.gif', 0xFF395FD2],
+		[''],
+		['Grax especiales'],
 		['evdial', 'evdial', 'Sprites originales de Miku', 'https://twitter.com/evydial', 0xFF39D25F],
+		['Flippy', 'flippy', 'Por aprender español chileno con nosotros :,)', 'https://www.youtube.com/channel/UCMIGpjyL6H__IFp7emWErlw', 0xFF39D25F],
+		['Cval', 'cval', 'Eduardo', 'https://twitter.com/cval_brown', 0xFF39D25F],
 		[''],
 		['Psíquico Motor Equipo'],
 		['Shadow Mario',		'shadowmario',		'Programador principal de Psych Engine',					'https://twitter.com/Shadow_Mario_',	0xFFFFDD33],
 		['RiverOaken',			'riveroaken',		'Artista y animador principal de Psych Engine',				'https://twitter.com/river_oaken',		0xFFC30085],
-		[''],
-		['Gracias especiales'],
 		['Keoiki',				'keoiki',			'Animaciones de los Note Splash',							'https://twitter.com/Keoiki_',			0xFFFFFFFF],
 		[''],
 		["Los que hicieron el Funkin'"],
@@ -110,7 +112,7 @@ class CreditsState extends MusicBeatState
 
 				icon.sprTracker = optionText;
 
-				if (icnName == 'evidal')
+				if (icnName == 'cval')
 				{
 					smol = false;
 				}
