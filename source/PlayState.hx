@@ -368,6 +368,11 @@ class PlayState extends MusicBeatState
 				upperBoppers.updateHitbox();
 				add(upperBoppers);
 
+				joanBopper = new BGSprite('unimarc/tonobop', 1800, 350, 0.95, 0.95, ['tonobop']);
+				joanBopper.setGraphicSize(Std.int(joanBopper.width * 0.85));
+				joanBopper.updateHitbox();
+				add(joanBopper);
+				
 				derkiBopper = new BGSprite('unimarc/holasoygerman', -465, 150, 0.95, 0.95, ['darkuro instance 1']);
 				derkiBopper.setGraphicSize(Std.int(derkiBopper.width * 0.80));
 				derkiBopper.updateHitbox();
