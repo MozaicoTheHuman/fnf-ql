@@ -1,4 +1,4 @@
-bf:right dearest:left ivette:left maavo:left maritza:left gf:right
+bf:right dearest:left ivette:left maavo:left maritza:left gf:left
 :1:angry:0.05:0:Ya par de weoncitos venga pa aca.:0
 :0:talk:0.05:0:Bap bop.:0
 :1:talk:0.05:0:Dale po tengo hambre ponte vio\ny anda a traer carbon del unimarc\npal asaito po weon.:0

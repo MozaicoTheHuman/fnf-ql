@@ -1,4 +1,4 @@
-bf:right shaggy:left scooby:left matt:left maavo:left gf:right
+bf:right shaggy:left scooby:left matt:left maavo:left gf:left
 :2:happy:0.05:0:pucha que cantai de pana Shaggy.:3
 :1:happy:0.05:0:Lo se scoob, nada mal muchacho, bueno \nsi nos disculpan tenemos un pasillo\nentero que vaciar.:3
 :3:rage:0.05:0:¿Quien chucha vacio el pasillo 3?:4
