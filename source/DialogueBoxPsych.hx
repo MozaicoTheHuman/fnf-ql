@@ -355,7 +355,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 			}
 			if (cutSprite != null)
 			{
-				cutSprite.alpha -= 0.7 * elapsed;
+				cutSprite.alpha -= 1.3 * elapsed;
 				if (cutSprite.alpha <= 0)
 				{
 					remove(cutSprite);
