@@ -58,7 +58,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 				char.frames = Paths.getSparrowAtlas('dialogue/GF_Dialogue');
 				char.animation.addByPrefix('talkIdle', 'gfIdle', 24, true); //Dialogue ended
 				char.animation.addByPrefix('talk', 'gf', 24, true); //During dialogue
-				xOff = 10;
+				xOff = -60;
 				yOff = 30;
 				xSize = 0.3;
 				char.flipX = true;

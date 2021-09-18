@@ -1,4 +1,4 @@
-bf:right scooby:left ivette:left maavo:left maritza:left gf:right shaggy:left
+bf:right scooby:left ivette:left maavo:left maritza:left gf:left shaggy:left
 :4:happy:0.05:0:Wow, no sabia que se podia bailar cueca asi.:1
 :2:talk:0.05:0:Es porque eso no fue cueca...:1
 :4:funny:0.05:0:...:1
