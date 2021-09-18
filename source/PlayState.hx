@@ -176,6 +176,7 @@ class PlayState extends MusicBeatState
 	var fastCar:BGSprite;
 
 	var upperBoppers:BGSprite;
+	var joanBopper:BGSprite;
 	var bottomBoppers:BGSprite;
 	var leftBoppers:BGSprite;
 	var maavoBopper:BGSprite;
@@ -299,6 +300,12 @@ class PlayState extends MusicBeatState
 				upperBoppers.setGraphicSize(Std.int(upperBoppers.width * 0.85));
 				upperBoppers.updateHitbox();
 				add(upperBoppers);
+
+				joanBopper = new BGSprite('unimarc/tonobop', 1800, 350, 0.95, 0.95, ['tonobop']);
+				joanBopper.setGraphicSize(Std.int(joanBopper.width * 0.85));
+				joanBopper.updateHitbox();
+				add(joanBopper);
+
 
 				maavoBopper = new BGSprite('unimarc/MaavoIvette', -318, -58, 0.95, 0.95, ['MAAVETTE']);
 				maavoBopper.setGraphicSize(Std.int(maavoBopper.width * 0.69));
@@ -3397,6 +3404,7 @@ class PlayState extends MusicBeatState
 
 			case 'unimarc':
 				upperBoppers.dance(true);
+				joanBopper.dance(true);
 				bottomBoppers.dance(true);
 				leftBoppers.dance(true);
 				maavoBopper.dance(true);
