@@ -130,7 +130,7 @@ class MainMenuState extends MusicBeatState
 		var leMonth = leDate.getMonth();
 		var leDay = leDate.getDate();
 
-		if ((leMonth == 8) && (leDay == 18))
+		if (!Achievements.achievementsUnlocked[0][1] && (leMonth == 8) && (leDay == 18))
 		{
 			Achievements.achievementsUnlocked[0][1] = true;
 			giveAchievement();

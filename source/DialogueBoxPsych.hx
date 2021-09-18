@@ -61,6 +61,7 @@ class DialogueBoxPsych extends FlxSpriteGroup
 				xOff = 10;
 				yOff = 30;
 				xSize = 0.3;
+				char.flipX = true;
 			case 'dearest':
 				char.frames = Paths.getSparrowAtlas('dialogue/Papito_Dialogue');
 				char.animation.addByPrefix('talkIdle', 'papaFeliIdle', 24, true); //Dialogue ended
