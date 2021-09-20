@@ -198,6 +198,10 @@ class ClientPrefs {
 			hideTime = FlxG.save.data.hideTime;
 		}
 
+		if(FlxG.save.data.language == null) {
+			FlxG.save.data.language = 0;
+		}
+
 		var save:FlxSave = new FlxSave();
 		save.bind('controls', 'tulayre');
 		if(save != null && save.data.customControls != null) {

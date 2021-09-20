@@ -568,7 +568,7 @@ class PlayState extends MusicBeatState
 		}
 
 		var lowercaseSong:String = SONG.song.toLowerCase();
-		var file:String = Paths.txt(lowercaseSong + '/' + lowercaseSong + 'Dialogue');
+		var file:String = Paths.txt(lowercaseSong + '/' + lowercaseSong + Main.lSuffix[FlxG.save.data.language]);
 		if (OpenFlAssets.exists(file)) {
 			dialogue = CoolUtil.coolTextFile(file);
 		}

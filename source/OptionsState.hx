@@ -30,10 +30,30 @@ using StringTools;
 // TO DO: Redo the menu creation system for not being as dumb
 class OptionsState extends MusicBeatState
 {
-	var options:Array<String> = ['Controls', 'Preferences'];
+	var options:Array<String>;
 	private var grpOptions:FlxTypedGroup<Alphabet>;
 	private static var curSelected:Int = 0;
 	public static var menuBG:FlxSprite;
+
+	function optionTextUpdate()
+	{
+		options = ['Dialogue ' + Main.lenguaje[FlxG.save.data.language], 'Controls', 'Preferences'];
+		
+		if (grpOptions != null)
+			remove(grpOptions);
+		grpOptions = new FlxTypedGroup<Alphabet>();
+		add(grpOptions);
+
+		for (i in 0...options.length)
+		{
+			var optionText:Alphabet = new Alphabet(0, 0, options[i], true, false);
+			optionText.screenCenter();
+			optionText.y += (100 * (i - (options.length / 2))) + 50;
+			grpOptions.add(optionText);
+		}
+
+		changeSelection();
+	}
 
 	override function create() {
 		#if desktop
@@ -48,17 +68,7 @@ class OptionsState extends MusicBeatState
 		menuBG.antialiasing = ClientPrefs.globalAntialiasing;
 		add(menuBG);
 
-		grpOptions = new FlxTypedGroup<Alphabet>();
-		add(grpOptions);
-
-		for (i in 0...options.length)
-		{
-			var optionText:Alphabet = new Alphabet(0, 0, options[i], true, false);
-			optionText.screenCenter();
-			optionText.y += (100 * (i - (options.length / 2))) + 50;
-			grpOptions.add(optionText);
-		}
-		changeSelection();
+		optionTextUpdate();
 
 		super.create();
 	}
@@ -98,6 +108,16 @@ class OptionsState extends MusicBeatState
 
 				case 'Preferences':
 					openSubState(new PreferencesSubstate());
+			}
+			if (options[curSelected].startsWith('Dialogue'))
+			{
+				FlxG.save.data.language ++;
+				FlxG.save.data.language %= 2;
+				FlxG.save.flush;
+
+				optionTextUpdate();
+
+				FlxG.sound.play(Paths.sound('confirmMenu'));
 			}
 		}
 	}

@@ -38,6 +38,9 @@ class Main extends Sprite
 	public static var charDir:Array<String> = ['LEFT', 'DOWN', 'UP', 'RIGHT', 'UP'];
 	public static var gfxLetter:Array<String> = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I'];
 
+	public static var lenguaje:Array<String> = ['CHILENO', 'ENGLISH'];
+	public static var lSuffix:Array<String> = ['Dialogue', 'Eng'];
+
 	// You can pretty much ignore everything from here on - your code should go in your states.
 
 	public static function main():Void

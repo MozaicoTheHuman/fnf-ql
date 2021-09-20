@@ -1,0 +1,15 @@
+bf:right scooby:left ivette:left maavo:left maritza:left gf:left shaggy:left
+:4:happy:0.05:0:Wow, I didn't know you could dance\ncueca like that!:1
+:2:talk:0.05:0:That's because it wasn't cueca.:1
+:4:funny:0.05:0:...:1
+:1:happy:0.05:0:Where are the sausages?:2
+:6:talk:0.05:0:Scooby! Scooby!\nOh, there you are, pal!:3
+:3:what:0.05:0:Shaggy? Scooby?\nWhat are you two doing here?:4
+:6:talk:0.05:0:Buyin' stuff for the pre-party,\nwhat else would I be doing, man?:5
+:1:talk:0.05:0:Yo Shaggy, I found the meat aisle!:4
+:6:happy:0.05:0:Zoinks Scoob, stop makin' me hungry.:4
+:0:talk:0.05:0:Beep:4
+:6:talk:0.05:0:Oh, you're here too, man! Now that\nwe're here, don't ya wanna see how\nstrong you've gotten?:5
+:5:talk:0.05:0:Wait, we just want charcoal...:5
+:0:talk:0.05:0:Boop:5
+:6:talk:0.05:0:Very well, but let me tell ya that I'm\nnot the same when I'm hungry!:6
