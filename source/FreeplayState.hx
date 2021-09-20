@@ -305,12 +305,10 @@ class FreeplayState extends MusicBeatState
 	{
 		curDifficulty += change;
 
-		/*if (curDifficulty < 0)
+		if (curDifficulty == 0)
 			curDifficulty = CoolUtil.difficultyStuff.length-1;
 		if (curDifficulty >= CoolUtil.difficultyStuff.length)
-			curDifficulty = 0;*/
-
-		curDifficulty = CoolUtil.difficultyStuff.length-1;
+			curDifficulty = 1;
 		#if !switch
 		intendedScore = Highscore.getScore(songs[curSelected].songName, curDifficulty);
 		intendedRating = Highscore.getRating(songs[curSelected].songName, curDifficulty);

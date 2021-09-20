@@ -243,7 +243,7 @@ class StoryMenuState extends MusicBeatState
 			if (controls.UI_RIGHT_P)
 				changeDifficulty(1);
 			if (controls.UI_LEFT_P)
-				changeDifficulty(1);
+				changeDifficulty(-1);
 
 			if (controls.ACCEPT)
 			{
@@ -317,12 +317,10 @@ class StoryMenuState extends MusicBeatState
 	{
 		curDifficulty += change;
 
-		/*if (curDifficulty < 0)
+		if (curDifficulty == 0)
 			curDifficulty = CoolUtil.difficultyStuff.length-1;
 		if (curDifficulty >= CoolUtil.difficultyStuff.length)
-			curDifficulty = 0;*/
-		
-		curDifficulty = CoolUtil.difficultyStuff.length-1;
+			curDifficulty = 1;
 
 		sprDifficultyGroup.forEach(function(spr:FlxSprite) {
 			spr.visible = false;
