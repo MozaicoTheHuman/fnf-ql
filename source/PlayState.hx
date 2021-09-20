@@ -228,6 +228,11 @@ class PlayState extends MusicBeatState
 	public var backgroundGroup:FlxTypedGroup<FlxSprite>;
 	public var foregroundGroup:FlxTypedGroup<FlxSprite>;
 
+	/// Cocos 2d
+
+	//more keys
+	public static var mania = 0;
+
 	override public function create()
 	{
 		if (FlxG.sound.music != null)
@@ -254,6 +259,8 @@ class PlayState extends MusicBeatState
 
 		if (SONG == null)
 			SONG = Song.loadFromJson('tutorial');
+
+		mania = SONG.mania;
 
 		Conductor.mapBPMChanges(SONG);
 		Conductor.changeBPM(SONG.bpm);
@@ -1220,11 +1227,11 @@ class PlayState extends MusicBeatState
 			{
 				if(songNotes[1] > -1) { //Real notes
 					var daStrumTime:Float = songNotes[0];
-					var daNoteData:Int = Std.int(songNotes[1] % 4);
+					var daNoteData:Int = Std.int(songNotes[1] % Main.ammo[mania]);
 
 					var gottaHitNote:Bool = section.mustHitSection;
 
-					if (songNotes[1] > 3)
+					if (songNotes[1] > Main.ammo[mania] - 1)
 					{
 						gottaHitNote = !section.mustHitSection;
 					}
@@ -1329,7 +1336,7 @@ class PlayState extends MusicBeatState
 
 	private function generateStaticArrows(player:Int):Void
 	{
-		for (i in 0...4)
+		for (i in 0...Main.ammo[mania])
 		{
 			// FlxG.log.add(i);
 			var babyArrow:StrumNote = new StrumNote(ClientPrefs.middleScroll ? STRUM_X_MIDDLESCROLL : STRUM_X, strumLine.y, i);
@@ -1385,31 +1392,15 @@ class PlayState extends MusicBeatState
 					babyArrow.animation.addByPrefix('red', 'arrowRIGHT');
 
 					babyArrow.antialiasing = ClientPrefs.globalAntialiasing;
-					babyArrow.setGraphicSize(Std.int(babyArrow.width * 0.7));
+					babyArrow.setGraphicSize(Std.int(babyArrow.width * Note.scales[mania]));
 
-					switch (Math.abs(i))
-					{
-						case 0:
-							babyArrow.x += Note.swagWidth * 0;
-							babyArrow.animation.addByPrefix('static', 'arrowLEFT');
-							babyArrow.animation.addByPrefix('pressed', 'left press', 24, false);
-							babyArrow.animation.addByPrefix('confirm', 'left confirm', 24, false);
-						case 1:
-							babyArrow.x += Note.swagWidth * 1;
-							babyArrow.animation.addByPrefix('static', 'arrowDOWN');
-							babyArrow.animation.addByPrefix('pressed', 'down press', 24, false);
-							babyArrow.animation.addByPrefix('confirm', 'down confirm', 24, false);
-						case 2:
-							babyArrow.x += Note.swagWidth * 2;
-							babyArrow.animation.addByPrefix('static', 'arrowUP');
-							babyArrow.animation.addByPrefix('pressed', 'up press', 24, false);
-							babyArrow.animation.addByPrefix('confirm', 'up confirm', 24, false);
-						case 3:
-							babyArrow.x += Note.swagWidth * 3;
-							babyArrow.animation.addByPrefix('static', 'arrowRIGHT');
-							babyArrow.animation.addByPrefix('pressed', 'right press', 24, false);
-							babyArrow.animation.addByPrefix('confirm', 'right confirm', 24, false);
-					}
+					babyArrow.x += Note.swidths[mania] * Note.swagWidth * Math.abs(i);
+
+					var dirName = Main.gfxDir[Main.gfxHud[mania][i]];
+					var pressName = Main.gfxLetter[Main.gfxIndex[mania][i]];
+					babyArrow.animation.addByPrefix('static', 'arrow' + dirName);
+					babyArrow.animation.addByPrefix('pressed', pressName + ' press', 24, false);
+					babyArrow.animation.addByPrefix('confirm', pressName + ' confirm', 24, false);
 			}
 
 			babyArrow.updateHitbox();
@@ -1436,6 +1427,7 @@ class PlayState extends MusicBeatState
 			babyArrow.playAnim('static');
 			babyArrow.x += 50;
 			babyArrow.x += ((FlxG.width / 2) * player);
+			babyArrow.x -= Note.posRest[mania];
 
 			strumLineNotes.add(babyArrow);
 		}
@@ -2003,17 +1995,7 @@ class PlayState extends MusicBeatState
 						}
 
 						var animToPlay:String = '';
-						switch (Math.abs(daNote.noteData))
-						{
-							case 0:
-								animToPlay = 'singLEFT';
-							case 1:
-								animToPlay = 'singDOWN';
-							case 2:
-								animToPlay = 'singUP';
-							case 3:
-								animToPlay = 'singRIGHT';
-						}
+						animToPlay = 'sing' + Main.charDir[Main.gfxHud[mania][Std.int(Math.abs(daNote.noteData))]];
 						dad.playAnim(animToPlay + altAnim, true);
 					}
 
@@ -2026,7 +2008,7 @@ class PlayState extends MusicBeatState
 					if(daNote.isSustainNote && !daNote.animation.curAnim.name.endsWith('end')) {
 						time += 0.15;
 					}
-					StrumPlayAnim(true, Std.int(Math.abs(daNote.noteData)) % 4, time);
+					StrumPlayAnim(true, Std.int(Math.abs(daNote.noteData)) % Main.ammo[mania], time);
 					daNote.ignoreNote = true;
 
 					if (!daNote.isSustainNote)
@@ -2080,17 +2062,7 @@ class PlayState extends MusicBeatState
 										RecalculateRating();
 
 										if(ClientPrefs.ghostTapping) {
-											switch (daNote.noteData % 4)
-											{
-												case 0:
-													boyfriend.playAnim('singLEFTmiss', true);
-												case 1:
-													boyfriend.playAnim('singDOWNmiss', true);
-												case 2:
-													boyfriend.playAnim('singUPmiss', true);
-												case 3:
-													boyfriend.playAnim('singRIGHTmiss', true);
-											}
+											boyfriend.playAnim('sing' + Main.charDir[Main.gfxHud[mania][Std.int(Math.abs(daNote.noteData))]] + 'miss', true);
 										}
 										callOnLuas('noteMiss', [daNote.noteData, daNote.noteType]);
 								}
@@ -2859,6 +2831,101 @@ class PlayState extends MusicBeatState
 		var down = controls.NOTE_DOWN;
 		var left = controls.NOTE_LEFT;
 
+		var sH = [
+			controls.A1,
+			controls.A2,
+			controls.A3,
+			controls.A5,
+			controls.A6,
+			controls.A7
+		];
+
+		var vH = [
+			controls.A1,
+			controls.A2,
+			controls.A3,
+			controls.A4,
+			controls.A5,
+			controls.A6,
+			controls.A7
+		];
+
+		var nH = [
+			controls.B1,
+			controls.B2,
+			controls.B3,
+			controls.B4,
+			controls.B5,
+			controls.B6,
+			controls.B7,
+			controls.B8,
+			controls.B9
+		];
+
+
+		var sP = [
+			controls.A1_P,
+			controls.A2_P,
+			controls.A3_P,
+			controls.A5_P,
+			controls.A6_P,
+			controls.A7_P
+		];
+
+		var vP = [
+			controls.A1_P,
+			controls.A2_P,
+			controls.A3_P,
+			controls.A4_P,
+			controls.A5_P,
+			controls.A6_P,
+			controls.A7_P
+		];
+
+		var nP = [
+			controls.B1_P,
+			controls.B2_P,
+			controls.B3_P,
+			controls.B4_P,
+			controls.B5_P,
+			controls.B6_P,
+			controls.B7_P,
+			controls.B8_P,
+			controls.B9_P
+		];
+
+
+		var sR = [
+			controls.A1_R,
+			controls.A2_R,
+			controls.A3_R,
+			controls.A5_R,
+			controls.A6_R,
+			controls.A7_R
+		];
+
+		var vR = [
+			controls.A1_R,
+			controls.A2_R,
+			controls.A3_R,
+			controls.A4_R,
+			controls.A5_R,
+			controls.A6_R,
+			controls.A7_R
+		];
+
+		var nR = [
+			controls.B1_R,
+			controls.B2_R,
+			controls.B3_R,
+			controls.B4_R,
+			controls.B5_R,
+			controls.B6_R,
+			controls.B7_R,
+			controls.B8_R,
+			controls.B9_R
+		];
+
 		var upP = controls.NOTE_UP_P;
 		var rightP = controls.NOTE_RIGHT_P;
 		var downP = controls.NOTE_DOWN_P;
@@ -2873,10 +2940,39 @@ class PlayState extends MusicBeatState
 		var controlReleaseArray:Array<Bool> = [leftR, downR, upR, rightR];
 		var controlHoldArray:Array<Bool> = [left, down, up, right];
 
+		switch (mania)
+		{
+			case 1:
+				controlArray = sP;
+				controlReleaseArray = sR;
+				controlHoldArray = sH;
+			case 2:
+				controlArray = vP;
+				controlReleaseArray = vR;
+				controlHoldArray = vH;
+			case 3:
+				controlArray = nP;
+				controlReleaseArray = nR;
+				controlHoldArray = nH;
+		}
+
+		var anyH = false;
+		var anyP = false;
+		var anyR = false;
+		for (i in 0...controlArray.length)
+		{
+			if (controlHoldArray[i])
+				anyH = true;
+			if (controlArray[i])
+				anyP = true;
+			if (controlReleaseArray[i])
+				anyR = true;
+		}
+
 		// FlxG.watch.addQuick('asdfa', upP);
 		if (!boyfriend.stunned && generatedMusic)
 		{
-			if((left || down || up || right) && !endingSong) {
+			if(anyH && !endingSong) {
 				notes.forEachAlive(function(daNote:Note) {
 					if(daNote.isSustainNote && controlHoldArray[daNote.noteData] && daNote.canBeHit && daNote.mustPress) {
 						goodNoteHit(daNote);
@@ -2894,7 +2990,7 @@ class PlayState extends MusicBeatState
 				boyfriend.dance();
 			}
 
-			if((leftP || downP || upP || rightP) && !endingSong) {
+			if(anyP && !endingSong) {
 				if(!ClientPrefs.ghostTapping)
 					boyfriend.holdTimer = 0;
 
@@ -2975,7 +3071,48 @@ class PlayState extends MusicBeatState
 	}
 
 	function badNoteHit():Void {
+		var sP = [
+			controls.A1_P,
+			controls.A2_P,
+			controls.A3_P,
+			controls.A5_P,
+			controls.A6_P,
+			controls.A7_P
+		];
+
+		var vP = [
+			controls.A1_P,
+			controls.A2_P,
+			controls.A3_P,
+			controls.A4_P,
+			controls.A5_P,
+			controls.A6_P,
+			controls.A7_P
+		];
+
+		var nP = [
+			controls.B1_P,
+			controls.B2_P,
+			controls.B3_P,
+			controls.B4_P,
+			controls.B5_P,
+			controls.B6_P,
+			controls.B7_P,
+			controls.B8_P,
+			controls.B9_P
+		];
+
 		var controlArray:Array<Bool> = [controls.NOTE_LEFT_P, controls.NOTE_DOWN_P, controls.NOTE_UP_P, controls.NOTE_RIGHT_P];
+
+		switch (mania)
+		{
+			case 1:
+				controlArray = sP;
+			case 2:
+				controlArray = vP;
+			case 3:
+				controlArray = nP;
+		}
 		for (i in 0...controlArray.length) {
 			if(controlArray[i]) {
 				noteMiss(i);
@@ -3011,17 +3148,7 @@ class PlayState extends MusicBeatState
 				boyfriend.stunned = false;
 			});*/
 
-			switch (direction)
-			{
-				case 0:
-					boyfriend.playAnim('singLEFTmiss', true);
-				case 1:
-					boyfriend.playAnim('singDOWNmiss', true);
-				case 2:
-					boyfriend.playAnim('singUPmiss', true);
-				case 3:
-					boyfriend.playAnim('singRIGHTmiss', true);
-			}
+			boyfriend.playAnim('sing' + Main.charDir[Main.gfxHud[mania][direction]] + 'miss', true);
 			vocals.volume = 0;
 		}
 	}
@@ -3090,17 +3217,9 @@ class PlayState extends MusicBeatState
 				if(note.noteType == 1) daAlt = '-alt';
 
 				var animToPlay:String = '';
-				switch (Std.int(Math.abs(note.noteData)))
-				{
-					case 0:
-						animToPlay = 'singLEFT';
-					case 1:
-						animToPlay = 'singDOWN';
-					case 2:
-						animToPlay = 'singUP';
-					case 3:
-						animToPlay = 'singRIGHT';
-				}
+
+				animToPlay = 'sing' + Main.charDir[Main.gfxHud[mania][Std.int(Math.abs(note.noteData))]];
+
 				boyfriend.playAnim(animToPlay + daAlt, true);
 			}
 
@@ -3145,7 +3264,7 @@ class PlayState extends MusicBeatState
 	}
 
 	function spawnNoteSplashOnNote(note:Note) {
-		if(ClientPrefs.noteSplashes && note != null) {
+		if(ClientPrefs.noteSplashes && note != null && mania == 0) {
 			var strum:StrumNote = playerStrums.members[note.noteData];
 			if(strum != null) {
 				spawnNoteSplash(strum.x, strum.y, note.noteData, note.noteType);

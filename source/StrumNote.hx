@@ -32,7 +32,14 @@ class StrumNote extends FlxSprite
 
 	public function playAnim(anim:String, ?force:Bool = false) {
 		animation.play(anim, force);
-		centerOffsets();
+		updateHitbox();
+		offset.x = frameWidth / 2;
+		offset.y = frameHeight / 2;
+
+		offset.x -= 156 * Note.scales[PlayState.SONG.mania] / 2;
+		offset.y -= 156 * Note.scales[PlayState.SONG.mania] / 2;
+		//centerOffsets();
+		/*
 		if(animation.curAnim.name == 'static') {
 			colorSwap.hue = 0;
 			colorSwap.saturation = 0;
@@ -47,5 +54,6 @@ class StrumNote extends FlxSprite
 				offset.y -= 13;
 			}
 		}
+		*/
 	}
 }

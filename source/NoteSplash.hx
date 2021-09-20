@@ -26,7 +26,8 @@ class NoteSplash extends FlxSprite
 	}
 
 	public function setupNoteSplash(x:Float, y:Float, note:Int = 0, noteType:Int = 0) {
-		setPosition(x - Note.swagWidth * 0.95, y - Note.swagWidth);
+		offset.set(frameWidth / 2 - 25, frameWidth / 2 - 30);
+		setPosition(x, y);
 		alpha = 0.6;
 
 		if(lastNoteType != noteType) {
@@ -50,11 +51,13 @@ class NoteSplash extends FlxSprite
 				colorSwap.brightness = 0;
 			
 			default:
+				/*
 				colorSwap.hue = ClientPrefs.arrowHSV[note % 4][0] / 360;
 				colorSwap.saturation = ClientPrefs.arrowHSV[note % 4][1] / 100;
 				colorSwap.brightness = ClientPrefs.arrowHSV[note % 4][2] / 100;
+				*/
 		}
-		offset.set(10, 10);
+		//offset.set(10, 10);
 
 		var animNum:Int = FlxG.random.int(1, 2);
 		animation.play('note' + note + '-' + animNum, true);

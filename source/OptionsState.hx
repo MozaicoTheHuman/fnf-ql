@@ -30,7 +30,7 @@ using StringTools;
 // TO DO: Redo the menu creation system for not being as dumb
 class OptionsState extends MusicBeatState
 {
-	var options:Array<String> = ['Notes', 'Controls', 'Preferences'];
+	var options:Array<String> = ['Controls', 'Preferences'];
 	private var grpOptions:FlxTypedGroup<Alphabet>;
 	private static var curSelected:Int = 0;
 	public static var menuBG:FlxSprite;
@@ -399,12 +399,11 @@ class ControlsSubstate extends MusicBeatSubstate {
 	private static var defaultKey:String = 'Reset to Default Keys';
 
 	var optionShit:Array<String> = [
-		'NOTES',
+		'4 TECLAS',
 		ClientPrefs.keyBinds[0][1],
 		ClientPrefs.keyBinds[1][1],
 		ClientPrefs.keyBinds[2][1],
 		ClientPrefs.keyBinds[3][1],
-		'',
 		'UI',
 		ClientPrefs.keyBinds[4][1],
 		ClientPrefs.keyBinds[5][1],
@@ -415,6 +414,24 @@ class ControlsSubstate extends MusicBeatSubstate {
 		ClientPrefs.keyBinds[9][1],
 		ClientPrefs.keyBinds[10][1],
 		ClientPrefs.keyBinds[11][1],
+		'6 O 7 TECLAS',
+		ClientPrefs.keyBinds[12][1],
+		ClientPrefs.keyBinds[13][1],
+		ClientPrefs.keyBinds[14][1],
+		ClientPrefs.keyBinds[15][1],
+		ClientPrefs.keyBinds[16][1],
+		ClientPrefs.keyBinds[17][1],
+		ClientPrefs.keyBinds[18][1],
+		'9 TECLAS',
+		ClientPrefs.keyBinds[19][1],
+		ClientPrefs.keyBinds[20][1],
+		ClientPrefs.keyBinds[21][1],
+		ClientPrefs.keyBinds[22][1],
+		ClientPrefs.keyBinds[23][1],
+		ClientPrefs.keyBinds[24][1],
+		ClientPrefs.keyBinds[25][1],
+		ClientPrefs.keyBinds[26][1],
+		ClientPrefs.keyBinds[27][1],
 		'',
 		defaultKey];
 
