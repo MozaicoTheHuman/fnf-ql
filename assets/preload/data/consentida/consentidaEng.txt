@@ -12,5 +12,5 @@ bf:right dearest:left ivette:left maavo:left maritza:left gf:left
 :0:talk:0.05:0:Beep...:7
 :4:happy:0.05:0:HI LITTLE GUY! Do you remember me?:8
 :0:talk:0.05:0:...???:9
-:4:happy:0.05:0:Did ya come here for a rematch?\nToo bad, now I'm in my element!:10
+:4:talk:0.05:0:Did ya come here for a rematch?\nToo bad, now I'm in my element!:10
 :5:talk:0.05:0:Wait, do none of you know where the\ncharcoal is?:10

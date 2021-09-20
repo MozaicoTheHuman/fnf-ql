@@ -12,5 +12,5 @@ bf:right dearest:left ivette:left maavo:left maritza:left gf:left
 :0:talk:0.05:0:Beep...:7
 :4:happy:0.05:0:¡HOLA CHIQUITIN! ¿Te acuerdas de mi?:8
 :0:talk:0.05:0:...???:9
-:4:happy:0.05:0:Viniste por revancha? muy mal,\nahora estoy en mi elemento.:10
+:4:talk:0.05:0:Viniste por revancha? muy mal,\nahora estoy en mi elemento.:10
 :5:talk:0.05:0:Esperen ¿no saben donde esta el carbon?:10
