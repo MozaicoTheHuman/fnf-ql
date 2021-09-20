@@ -1,0 +1,16 @@
+bf:right dearest:left ivette:left maavo:left maritza:left gf:left
+:1:angry:0.05:0:ok little fucks come here.:0
+:0:talk:0.05:0:Bap bop.:0
+:1:talk:0.05:0:yeah so im hungry.\nGo get charcoal at the Unimarc\nfor the BBQ.:0
+:0:talk:0.05:0:Bap.:1
+:5:talk:0.05:0:Where's the charcoal?:2
+:0:talk:0.05:0:Bap!:3
+:5:talk:0.05:0:for fuck sake my boyfriend is so usele-:3
+:0:talk:0.05:0:Bobepibep bapara bupbiap!:4
+:2:angry:0.05:0:HOLD ON YOU LITTLE SHIT! how dare you\ncall me that?:5
+:3:what:0.05:0:Huh? What are you doing here midget?:7
+:0:talk:0.05:0:Beep...:7
+:4:happy:0.05:0:HI LITTLE ONE! do you remember me?:8
+:0:talk:0.05:0:...???:9
+:4:happy:0.05:0:Did you came for revenge? too bad,\nim hyper focused now.:10
+:5:talk:0.05:0:Wait, do you guys know where the charcoal is?:10
