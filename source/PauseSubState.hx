@@ -31,7 +31,7 @@ class PauseSubState extends MusicBeatSubstate
 		super();
 		menuItems = menuItemsOG;
 
-		for (i in 0...CoolUtil.difficultyStuff.length) {
+		for (i in 1...CoolUtil.difficultyStuff.length) {
 			var diff:String = '' + CoolUtil.difficultyStuff[i][0];
 			difficultyChoices.push(diff);
 		}

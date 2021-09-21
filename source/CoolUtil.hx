@@ -17,7 +17,7 @@ class CoolUtil
 	public static var difficultyStuff:Array<Dynamic> = [
 		['Easy', '-easy'],
 		['Normal', ''],
-		['Hard', '-hard']
+		['Brijido', '-hard']
 	];
 
 	public static function difficultyString():String
