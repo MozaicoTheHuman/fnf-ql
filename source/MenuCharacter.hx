@@ -32,7 +32,7 @@ class MenuCharacter extends FlxSprite
 
 			case 'dad':
 				frames = Paths.getSparrowAtlas('menucharacters/Maritza');
-				animation.addByPrefix('idle', "MaritzaIDLE", 14);
+				animation.addByPrefix('idle', "MaritzaIDLE", 24);
 
 			case 'spooky':
 				frames = Paths.getSparrowAtlas('menucharacters/Menu_Spooky_Kids');
