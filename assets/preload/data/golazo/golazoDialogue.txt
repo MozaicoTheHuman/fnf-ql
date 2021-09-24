@@ -1,5 +1,5 @@
 bf:right scooby:left ivette:left maavo:left maritza:left gf:left shaggy:left
-:4:confident:0.05:0:Wow, no sabia que se podia la bailar cueca\nasi.:1
+:4:confident:0.05:0:Wow, no sabia que se podia bailar la cueca\nasi.:1
 :2:talk:0.05:0:Es porque eso no fue cueca...:1
 :4:funny:0.05:0:...:1
 :1:happy:0.05:0:¿Donde estaran los chorizos?:2
