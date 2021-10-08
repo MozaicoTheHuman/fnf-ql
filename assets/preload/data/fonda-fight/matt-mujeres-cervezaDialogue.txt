@@ -1,0 +1,12 @@
+bf:right shaggy:left scooby:left matt:left maavo:left gf:center
+:2:happy:0.05:0:pucha que cantai de pana Shaggy.
+:1:happy:0.05:0:Lo se scoob, Nada mal muchacho, bueno \nsi nos disculpan tenemos un pasillo entero que vaciar.
+:3:rage:0.05:0:¿Quien chucha vació el pasillo 3?
+:2:happy:0.05:0:...
+:1:talk:0.05:0Wena po pelao ¿como hay estao po weon?
+:3:angry:0.05:0:Po haciendo las compras pal asaito como todos, ¿que hace ese enano ahí?
+:0:talk:0.05:0:Beep Boop
+:5:talk:0.05:0:Por la cresta ¿no podemos pasar una semana,\nUNA sin que te enfrentes a estos weones?\nMás encima son siempre 3 canciones y todas las veces\nles partes la raja por favor solo queremos carbón por la rechucha.
+:4:scared:0.05:0:...
+:2:alert:0.05:0:...
+:3:talk:0.05:0:¿Sabes? también necesito carbón, acabemos con esto rápido.

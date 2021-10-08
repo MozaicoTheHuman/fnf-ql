@@ -1,76 +1,70 @@
 {
 	"animations": [
 		{
-			"loop": false,
-			"offsets": [
-				-90,
-				-172
-			],
-			"fps": 24,
-			"anim": "idle",
-			"indices": [],
-			"name": "MaritzaIDLE"
-		},
-		{
-			"loop": false,
 			"offsets": [
 				20,
 				-163
 			],
-			"fps": 24,
+			"loop": false,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "MaritzaLEFT"
+			"fps": 24,
+			"name": "MaritzaLEFT",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-135,
 				-175
 			],
-			"fps": 24,
+			"loop": false,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "MaritzaRIGHT"
+			"fps": 24,
+			"name": "MaritzaRIGHT",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
 				60,
 				-265
 			],
-			"fps": 24,
+			"loop": false,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "MaritzaDOWN"
+			"fps": 24,
+			"name": "MaritzaDOWN",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-29,
+				-16
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "MaritzaUP",
+			"indices": []
 		},
 		{
 			"loop": false,
 			"offsets": [
-				-29,
-				-16
+				-44,
+				-110
 			],
+			"anim": "hey",
 			"fps": 24,
-			"anim": "singUP",
-			"indices": [],
-			"name": "MaritzaUP"
+			"name": "MaritzaCLAP",
+			"indices": []
 		},
 		{
-			"loop": true,
 			"offsets": [
-				-29,
-				-16
+				-90,
+				-172
 			],
-			"anim": "singUP-loop",
+			"loop": false,
 			"fps": 24,
-			"name": "MaritzaUP",
-			"indices": [
-				4,
-				6,
-				8,
-				10,
-				12
-			]
+			"anim": "idle-alt",
+			"indices": [],
+			"name": "Maritza-alt"
 		},
 		{
 			"offsets": [
@@ -79,9 +73,26 @@
 			],
 			"loop": false,
 			"fps": 24,
-			"anim": "hey",
+			"anim": "idle",
 			"indices": [],
-			"name": "MaritzaCLAP"
+			"name": "MaritzaIDLE"
+		},
+		{
+			"offsets": [
+				-29,
+				-16
+			],
+			"indices": [
+				4,
+				6,
+				8,
+				10,
+				12
+			],
+			"fps": 12,
+			"anim": "singUP-loop",
+			"loop": true,
+			"name": "MaritzaUP"
 		}
 	],
 	"no_antialiasing": false,
@@ -98,9 +109,9 @@
 		209
 	],
 	"camera_position": [
-		50,
+		140,
 		210
 	],
-	"sing_duration": 4,
+	"sing_duration": 6.5,
 	"scale": 1
 }
