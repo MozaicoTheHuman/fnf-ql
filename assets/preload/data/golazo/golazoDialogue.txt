@@ -10,6 +10,6 @@ bf:right scooby:left ivette:left maavo:left maritza:left gf:left shaggy:left
 :6:happy:0.05:0:Caracoles Scooby, deja de dar hambre.:4
 :0:talk:0.05:0:Beep:4
 :6:talk:0.05:0:Oh tu tambien estas aqui viejo, ya que\nestamos ¿No te parece que probemos que\ntan fuerte te has vuelto?:5
-:5:talk:0.05:0:Solo queremos carbon.:5
+:5:talk:0.05:0:Momento, solo queremos carbon.:5
 :0:talk:0.05:0:Boop:5
 :6:talk:0.05:0:Muy bien, pero dejame advertirte que\nno soy el mismo cuando tengo hambre.:6
