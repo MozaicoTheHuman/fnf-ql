@@ -55,7 +55,7 @@ class PlayState extends MusicBeatState
 	public static var ratingStuff:Array<Dynamic> = [
 		['tonto ql', 0.2], //From 0% to 19%
 		['uuu como tan malo', 0.4], //From 20% to 39%
-		['wea mala', 0.5], //From 40% to 49%
+		['weon malo', 0.5], //From 40% to 49%
 		['aweonao', 0.6], //From 50% to 59%
 		['decente', 0.69], //From 60% to 68%
 		['ta bien', 0.7], //69%
