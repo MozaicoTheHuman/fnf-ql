@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				243,
+				-52
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "matt left note",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-60,
+				-50
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "matt down note",
+			"indices": []
+		},
+		{
+			"offsets": [
+				23,
+				27
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "matt up note",
+			"indices": []
+		},
+		{
+			"offsets": [
+				7,
+				-60
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "matt right note",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"anim": "idle",
+			"fps": 24,
+			"name": "matt idle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/matiaselcuecas",
+	"position": [
+		-860,
+		290
+	],
+	"healthicon": "matt",
+	"flip_x": true,
+	"healthbar_colors": [
+		255,
+		165,
+		0
+	],
+	"camera_position": [
+		-280,
+		0
+	],
+	"sing_duration": 6.9,
+	"scale": 1
+}
