@@ -32,7 +32,7 @@ class MenuCharacter extends FlxSprite
 
 			case 'dad':
 				frames = Paths.getSparrowAtlas('menucharacters/Maritza');
-				animation.addByPrefix('idle', "MaritzaIDLE", 24);
+				animation.addByPrefix('idle', "maritzamenu", 24);
 
 			case 'spooky':
 				frames = Paths.getSparrowAtlas('menucharacters/Menu_Spooky_Kids');
@@ -61,9 +61,9 @@ class MenuCharacter extends FlxSprite
 			case 'dad':
 				setGraphicSize(300);
 				updateHitbox();
-				offset.set(225, 125);
+				offset.set(170, 121);
 			case 'bf':
-				offset.set(15, -40);
+				offset.set(50, -40);
 
 			case 'gf':
 				offset.set(0, -25);

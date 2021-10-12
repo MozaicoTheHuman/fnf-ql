@@ -2287,6 +2287,12 @@
 						"0"
 					],
 					[
+						106607.142857143,
+						7,
+						0,
+						0
+					],
+					[
 						106951.530612245,
 						1,
 						"Screen Shake",
@@ -4662,15 +4668,6 @@
 				"mustHitSection": true,
 				"changeBPM": false,
 				"bpm": 98
-			},
-			{
-				"lengthInSteps": 16,
-				"altAnim": false,
-				"typeOfSection": 0,
-				"sectionNotes": [],
-				"bpm": 98,
-				"changeBPM": false,
-				"mustHitSection": true
 			},
 			{
 				"lengthInSteps": 16,

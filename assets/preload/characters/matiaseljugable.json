@@ -59,18 +59,18 @@
 	"no_antialiasing": false,
 	"image": "characters/matiaselcuecas",
 	"position": [
-		0,
+		-860,
 		290
 	],
 	"healthicon": "matt",
-	"flip_x": false,
+	"flip_x": true,
 	"healthbar_colors": [
 		255,
 		165,
 		0
 	],
 	"camera_position": [
-		0,
+		-280,
 		0
 	],
 	"sing_duration": 6.9,
