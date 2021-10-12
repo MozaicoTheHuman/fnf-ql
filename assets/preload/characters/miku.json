@@ -1,81 +1,81 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
-				56,
+				55,
 				4
 			],
-			"fps": 24,
+			"loop": false,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "Miku Sing Note LEFT"
+			"fps": 24,
+			"name": "Miku Sing Note LEFT",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
 				34,
 				0
 			],
-			"fps": 24,
+			"loop": false,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "Miku Sing Note DOWN"
+			"fps": 24,
+			"name": "Miku Sing Note DOWN",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
 				17,
 				51
 			],
-			"fps": 24,
+			"loop": false,
 			"anim": "singUP",
-			"indices": [],
-			"name": "Miku Sing Note UP"
+			"fps": 24,
+			"name": "Miku Sing Note UP",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-61,
 				2
 			],
-			"fps": 24,
+			"loop": false,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "Miku Sing Note RIGHT"
-		},
-		{
-			"loop": false,
-			"offsets": [
-				0,
-				0
-			],
 			"fps": 24,
-			"anim": "idle",
-			"indices": [],
-			"name": "Miku idle dance"
+			"name": "Miku Sing Note RIGHT",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
 				131,
 				-86
 			],
-			"anim": "singLEFT-alt",
+			"loop": false,
 			"fps": 24,
-			"name": "Miku IZQUIERDA ALT",
-			"indices": []
+			"anim": "singLEFT-alt",
+			"indices": [],
+			"name": "Miku IZQUIERDA ALT"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				5,
 				0
 			],
-			"anim": "singRIGHT-alt",
+			"loop": false,
 			"fps": 24,
-			"name": "Miku DERECHA ALT",
-			"indices": []
+			"anim": "singRIGHT-alt",
+			"indices": [],
+			"name": "Miku DERECHA ALT"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": true,
+			"name": "Miku idle dance"
 		}
 	],
 	"no_antialiasing": false,

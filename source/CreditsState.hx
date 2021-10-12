@@ -31,7 +31,7 @@ class CreditsState extends MusicBeatState
 		['FlameMind', 'flame', 'Reggaeton de Shaggy', 'https://twitter.com/flamemind10', 0xFF39D25F],
 		['Mozaico', 'mozaico', 'Artista, Voz de Maavo, Código', 'https://www.youtube.com/c/MaavoTheHuman/', 0xFF395FD2],
 		['Joan Atlas', 'tono', 'Canción del menú, Mix de la consentida, Canción fonda fight', 'https://twitter.com/joan_atlas', 0xFF395FD2],
-		['Pointy', 'pointy', 'Voz de Matt, Artista, Charter', 'https://twitter.com/fnfAC_D', 0xFF395FD2],
+		['Pointy', 'pointy', 'Voz de Matt, Artista, Charter', 'https://twitter.com/PointyyESM', 0xFF395FD2],
 		['Shyrell', 'shy', 'Voz de Girlfriend, Artista', 'https://twitter.com/shy_squishy', 0xFF395FD2],
 		['GenoX', 'genox', 'Vocales de Consentida, Canción Asereje, Código', 'https://twitter.com/GenoXACT2', 0xFF395FD2],
 		['Surfe', 'surfe', 'Fondo del menú', 'https://twitter.com/SurfeBit', 0xFF395FD2],
