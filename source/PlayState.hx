@@ -298,11 +298,6 @@ class PlayState extends MusicBeatState
 
 				defaultCamZoom = 0.65;
 
-				joanBopper = new BGSprite('unimarc/tonobop', 180320, 353120, 0.95, 0.95, ['tonobop']);
-				joanBopper.setGraphicSize(Std.int(joanBopper.width * 0.1));
-				joanBopper.updateHitbox();
-				add(joanBopper);
-
 				var bg:BGSprite = new BGSprite('unimarc/Back', -1540, -950, 0.95, 0.95);
 				bg.setGraphicSize(Std.int(bg.width * 1.55));
 				bg.updateHitbox();
@@ -313,25 +308,30 @@ class PlayState extends MusicBeatState
 				upperBoppers.updateHitbox();
 				add(upperBoppers);
 
-				maavoBopper = new BGSprite('unimarc/MaavoIvette', -318, -40, 0.95, 0.95, ['MAAVETTE']);
+				joanBopper = new BGSprite('unimarc/tonobop', 1700, 350, 0.95, 0.95, ['tonobop']);
+				joanBopper.setGraphicSize(Std.int(joanBopper.width * 0.85));
+				joanBopper.updateHitbox();
+				add(joanBopper);
+
+				maavoBopper = new BGSprite('unimarc/MaavoMaritzaIvette', -368, -44, 0.95, 0.95, ['familiafelis']);
 				maavoBopper.setGraphicSize(Std.int(maavoBopper.width * 0.55));
 				maavoBopper.updateHitbox();
 				add(maavoBopper);
 
-				derkiBopper = new BGSprite('unimarc/holasoygerman', -46584932, 143243250, 0.95, 0.95, ['darkuro instance 1']);
+				derkiBopper = new BGSprite('unimarc/holasoygerman', -465, 150, 0.95, 0.95, ['darkuro instance 1']);
 				derkiBopper.setGraphicSize(Std.int(derkiBopper.width * 0.80));
 				derkiBopper.updateHitbox();
 				add(derkiBopper);
+
+				monadeltidalBoppers = new BGSprite('unimarc/mgrchilenita', -175, 490, 0.95, 0.95, ['meguruchilenita instance 1']);
+				monadeltidalBoppers.setGraphicSize(Std.int(upperBoppers.width * 0.425));
+				monadeltidalBoppers.updateHitbox();
+				add(monadeltidalBoppers);
 
 				leftBoppers = new BGSprite('unimarc/sulayrecameo', 45, 290, 0.95, 0.95, ['sulayrebopper']);
 				leftBoppers.setGraphicSize(Std.int(upperBoppers.width * 0.425));
 				leftBoppers.updateHitbox();
 				add(leftBoppers);
-
-				monadeltidalBoppers = new BGSprite('unimarc/mgrchilenita', -174325, 494324320, 0.95, 0.95, ['meguruchilenita instance 1']);
-				monadeltidalBoppers.setGraphicSize(Std.int(upperBoppers.width * 0.425));
-				monadeltidalBoppers.updateHitbox();
-				add(monadeltidalBoppers);
 
 				var bg:BGSprite = new BGSprite('unimarc/xdddd', -1540, -950, 0.95, 0.95);
 				bg.setGraphicSize(Std.int(bg.width * 1.55));
