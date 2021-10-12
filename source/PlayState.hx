@@ -3043,6 +3043,8 @@ class PlayState extends MusicBeatState
 				if(!ClientPrefs.ghostTapping)
 					boyfriend.holdTimer = 0;
 
+				var canMiss:Bool = !ClientPrefs.ghostTapping;
+
 				var notesHitArray:Array<Note> = [];
 				var notesDatas:Array<Int> = [];
 				var dupeNotes:Array<Note> = [];
@@ -3076,6 +3078,15 @@ class PlayState extends MusicBeatState
 				if (perfectMode)
 					goodNoteHit(notesHitArray[0]);
 				else if (notesHitArray.length > 0) {
+					for (i in 0...controlArray.length) {
+						if(controlArray[i] && notesDatas.indexOf(i) == -1) {
+							if(canMiss) {
+								noteMiss(i);
+								callOnLuas('noteMissPress', [i]);
+								break;
+							}
+						}
+					}
 					for (i in 0...notesHitArray.length) {
 						var daNote = notesHitArray[i];
 						if(controlArray[daNote.noteData]) {
