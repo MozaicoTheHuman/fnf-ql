@@ -313,7 +313,7 @@ class PlayState extends MusicBeatState
 				joanBopper.updateHitbox();
 				add(joanBopper);
 
-				maavoBopper = new BGSprite('unimarc/MaavoIvette', -368, -44, 0.95, 0.95, ['familiafelis']);
+				maavoBopper = new BGSprite('unimarc/MaavoIvette', -368, -44, 0.95, 0.95, ['MAAVETTE']);
 				maavoBopper.setGraphicSize(Std.int(maavoBopper.width * 0.55));
 				maavoBopper.updateHitbox();
 				add(maavoBopper);
